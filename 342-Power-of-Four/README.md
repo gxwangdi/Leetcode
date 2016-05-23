@@ -5,5 +5,5 @@ Space O(1), Time O(Logn)
 
 Without loop or something, think of binary representation, it is like 1 00 00 00...00 00.  
 
-Space O(1), Time O(1)  
+Space O(logn), Time O(logn)  
 
