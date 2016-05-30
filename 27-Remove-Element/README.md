@@ -6,7 +6,7 @@ One is from beginning, looking for a match, one is from the end, looking for not
 Space O(1)  Time O(n)       A lot of corner cases to be considered. 
 =================================================
 
-Another two pointer approach, from the same direction, always fill slot with unmatch value.   
+Another two pointer approach, from the same direction, always fill slot with unmatch value.   basically calculate how many unmatch cha it has.    
 
 Space O(1)  Time O(n).   
 
