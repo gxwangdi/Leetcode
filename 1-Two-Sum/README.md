@@ -3,3 +3,8 @@ Setup a set to store    <needed value = target - nums[i],   i>    Once fine a ma
 
 Space O(n)   Time O(n)    
 
+Can sort the array first, and two pointer approach, one from left and one from right.     
+
+Space O(1)   Time O(nlogn)   
+
+    
