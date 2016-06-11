@@ -1,6 +1,28 @@
 public class Solution {
     
     public String getHint(String secret, String guess) {
+        int bulls = 0;
+        int cows = 0;
+        int[] numbers = new int[10];
+        Arrays.fill(numbers, 0);
+        for (int i=0; i<secret.length(); i++) {
+            int s = Character.getNumericValue(secret.charAt(i));
+            int g = Character.getNumericValue(guess.charAt(i));
+            if (s==g) {
+                bulls ++;
+            } else {
+                if (numbers[s]<0)   cows++;
+                if (numbers[g]>0)   cows++;
+                numbers[g]--;
+                numbers[s]++;
+            }
+        }
+        return bulls+"A"+cows+"B";
+    }
+    
+    
+    /*
+    public String getHint(String secret, String guess) {
         StringBuilder sb = new StringBuilder();
         int numA =0;
         int numB =0;
@@ -36,5 +58,7 @@ public class Solution {
         }
         sb.append(numA).append("A").append(numB-numA).append("B");
         return sb.toString();
-    }
+    }*/
+    
 }
+
