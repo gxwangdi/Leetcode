@@ -5,16 +5,14 @@ public class Solution {
         if (s.length() != t.length())
             return false;
         Map<Character, Character> map = new HashMap<>();
-        Set<Character> set = new HashSet<>();
         for (int i=0; i<s.length(); i++) {
             char cs = s.charAt(i);
             char ct = t.charAt(i);
             if (!map.containsKey(cs)) {
-                if (set.contains(ct)) {
+                if (map.containsValue(ct)) {
                     return false;
                 }
                 map.put(cs, ct);
-                set.add(ct);
                 continue;
             }
             char temp = map.get(cs);
