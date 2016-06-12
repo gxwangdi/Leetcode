@@ -1,19 +1,21 @@
 public class Solution {
     
-    /*
+    
     public boolean isValid(String s) {
         if (s == null) return false;
         
+        s = s.replaceAll("[^\\{\\}\\[\\]\\(\\)]", "");
         int len;
         do {
             len = s.length();
-            s = s.replaceAll("()", "");
-            s = s.replaceAll("\[\]", "");
-            s = s.replaceAll("{}", "");
+            s = s.replaceAll("\\(\\)", "");
+            s = s.replaceAll("\\[\\]", "");
+            s = s.replaceAll("\\{\\}", "");
         } while (len != s.length());
         return s.length() == 0;
-    }*/
+    }
     
+    /*
     public boolean isValid(String s) {
         if (s == null) return false;
         
@@ -27,5 +29,8 @@ public class Solution {
             else if (c == '}' && stack.pop()!='{') return false;
         }
         return stack.empty();
-    }
+    }*/
 }
+
+
+
