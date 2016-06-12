@@ -4,7 +4,7 @@ public class Solution {
     public boolean isValid(String s) {
         if (s == null) return false;
         
-        s = s.replaceAll("[^\\{\\}\\[\\]\\(\\)]", "");
+        s = s.trim();
         int len;
         do {
             len = s.length();
