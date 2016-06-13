@@ -1,9 +1,5 @@
 
-Basically three lines. 
+Totally misunderstand zigzag at first.   Reference a blog for zigzag and analysis
 
-Say, numRows is 3 like the sample, then
-First line, start from 0, and increment is 4;
-Second line, start from 1, and increment is 2;
-Third line, start from 2, increment is 4.   
+http://www.cnblogs.com/springfor/p/3889414.html.   
 
-Space O(n)   Time O(n)   
