@@ -18,6 +18,7 @@ public class Solution {
             }
             sb.append(count);
             sb.append(res.charAt(res.length()-1));
+            // Pay attention to last char
             res = sb.toString();
             i++;
         }
