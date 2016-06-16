@@ -23,9 +23,9 @@ Return `"100"`.
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Math](/tag/math/) [String](/tag/string/)</span></div>
+<span class="hidebutton" style="display: inline;">[Math](/tag/math/) [String](/tag/string/)</span></div>
 
 <div>
 
