@@ -1,5 +1,35 @@
 public class Solution {
+    /*  KMP, O(m+n)
+    public int strStr(String haystack, String needle) {
+        
+    }*/
     
+    /* // Use 52-ary to convert string to BigInteger, O(m+n).        
+    public int strStr(String haystack, String needle) {
+        
+    }*/
+    
+    // naive solution
+    public int strStr(String haystack, String needle) {
+        if (haystack == null || needle == null || haystack.length() < needle.length()) {
+            return -1;
+        }
+        
+        for (int i=0; i+needle.length()<= haystack.length(); i++) {
+            int j=0;
+            for (j=0; j<needle.length(); j++) {
+                if (haystack.charAt(i+j) != needle.charAt(j)) {
+                    break;
+                }
+            }
+            if (j == needle.length()) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    
+    /*  // Convert string to integer first. The hash would read every char when sliding window moves forward, so O(nm).   
     public int strStr(String haystack, String needle) {
         if (haystack == null || needle == null || haystack.length() < needle.length())
             return -1;
@@ -11,7 +41,7 @@ public class Solution {
                 return i;
         }
         return -1;
-    }
+    }*/
     
     /* // Java API 
     public int strStr(String haystack, String needle) {
@@ -20,3 +50,7 @@ public class Solution {
         return haystack.indexOf(needle);
     }*/
 }
+
+
+
+
