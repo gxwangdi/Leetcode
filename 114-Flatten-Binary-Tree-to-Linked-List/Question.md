@@ -53,4 +53,4 @@ If you notice carefully in the flattened tree, each node's right child points to
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: none;">[Tree](/tag/tree/) [Depth-first Search](/tag/depth-first-search/)</span></div>
+<span class="hidebutton">[Tree](/tag/tree/) [Depth-first Search](/tag/depth-first-search/)</span></div>
