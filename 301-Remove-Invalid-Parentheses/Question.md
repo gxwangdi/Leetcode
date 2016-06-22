@@ -30,9 +30,9 @@ Special thanks to [@hpplayer](https://leetcode.com/discuss/user/hpplayer) for ad
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: inline;">[Depth-first Search](/tag/depth-first-search/) [Breadth-first Search](/tag/breadth-first-search/)</span></div>
+<span class="hidebutton">[Depth-first Search](/tag/depth-first-search/) [Breadth-first Search](/tag/breadth-first-search/)</span></div>
 
 <div>
 
