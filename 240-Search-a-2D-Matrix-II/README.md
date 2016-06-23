@@ -12,6 +12,6 @@ Search online and find a simple implementation, which has O(m+n) solution.
 
 Starting from the top right corner, and compare target and matrix[i][j], 
 if matrix[i][j] < target, then the row does not have target, i++;
-if matrix[i][j] > target, then the column does not have target, j++;
+if matrix[i][j] > target, then the column does not have target, j--;
 If it goes outside the boundary, then matrix does not contain target, return false;
   
