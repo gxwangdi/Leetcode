@@ -1,10 +1,22 @@
 public class Solution {
-    /*  KMP, O(m+n)
+    /*  // KMP, O(m+n)
     public int strStr(String haystack, String needle) {
         
     }*/
     
-    /* // Use 52-ary to convert string to BigInteger, O(m+n).        
+    /* // RM O(m+n)
+    public int strStr(String haystack, String needle) {
+        
+    }*/ 
+    
+    /* // Sunday O(m+n) 
+    public int strStr(String haystack, String needle) {
+        
+    }*/
+    
+    /* 
+    // Change a string to a double and compare two doubles in O(1).  
+    // Sliding window moves in haystack, only think of O(m+n).        
     public int strStr(String haystack, String needle) {
         
     }*/
