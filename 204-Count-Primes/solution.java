@@ -5,7 +5,7 @@ public class Solution {
     /*
         Serach online and found a similar approach, but more concise implementation. 
         Based on https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes. 
-    */
+    */ 
     public int countPrimes(int n) {
         if (n<3) {
             return 0;
@@ -30,6 +30,21 @@ public class Solution {
         }
         return count;
     }
+    
+    /* // Probable algorithm to determine prime in O(1), cannot find class BigInteger.
+    public int countPrimes(int n) {
+        int count = 0;
+        if (n < 3) {
+            return count;
+        }
+        for (int i=2; i<n; i++) {
+            BigInteger big = new BigInteger(i+"");
+            if (big.isProbablePrime(20)) {
+                count++;
+            }
+        }
+        return count;
+    }*/
     
     // ==================== Below is my own implementation ====================
     /*
