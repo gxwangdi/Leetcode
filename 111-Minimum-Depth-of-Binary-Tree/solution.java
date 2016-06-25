@@ -8,6 +8,25 @@
  * }
  */
 public class Solution {
+    
+    public int minDepth(TreeNode root) {
+        if (root == null) {
+            return 0;
+        }
+        return getMin(root);
+    }
+    
+    private int getMin(TreeNode node) {
+        if (node == null) {
+            return Integer.MAX_VALUE;
+        }
+        if (node.left == null && node.right == null) {
+            return 1;
+        }
+        return Math.min(getMin(node.left), getMin(node.right)) + 1;
+    }
+    
+    /*
     public int minDepth(TreeNode root) {
         if (root == null)
             return 0;
@@ -41,5 +60,9 @@ public class Solution {
         if (right == 0)
             right = Integer.MAX_VALUE;
         return Math.min(left, right)+1;
-    }
+    }*/
 }
+
+
+
+
