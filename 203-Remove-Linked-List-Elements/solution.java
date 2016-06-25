@@ -7,6 +7,26 @@
  * }
  */
 public class Solution {
+    
+    
+    public ListNode removeElements(ListNode head, int val) {
+        // Write your code here
+        if (head == null) {
+            return head;
+        }
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
+        ListNode cur = dummy;
+        while (cur != null) {
+            while (cur.next!=null && cur.next.val == val) {
+                cur.next = cur.next.next;
+            }
+            cur = cur.next;
+        }
+        return dummy.next;
+    }
+    
+    /*
     public ListNode removeElements(ListNode head, int val) {
         while (head!= null && head.val == val) {
             head = head.next;
@@ -22,5 +42,5 @@ public class Solution {
             }
         }
         return head;
-    }
+    }*/
 }
