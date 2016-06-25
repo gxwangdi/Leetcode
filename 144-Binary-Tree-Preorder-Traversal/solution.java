@@ -8,7 +8,42 @@
  * }
  */
 public class Solution {
-    // iterative manner
+    
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<Pair> stack = new Stack<>();
+        stack.push(new Pair(root, false));
+        TreeNode node;
+        boolean visited;
+        while (!stack.empty()) {
+            node = stack.peek().node;
+            visited = stack.peek().visited;
+            stack.pop();
+            if (node == null) {
+                continue;
+            }
+            if (visited) {
+                res.add(node.val);
+            } else {
+                stack.push(new Pair(node.right, false));
+                stack.push(new Pair(node.left, false));
+                stack.push(new Pair(node, true));
+            }
+        }
+        return res;
+    }
+    
+    private static class Pair {
+        public TreeNode node;
+        public boolean visited;
+        public Pair(TreeNode tn, boolean v) {
+            node = tn;
+            visited = v;
+        }
+    }
+    
+    
+    /* // iterative manner
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -25,7 +60,7 @@ public class Solution {
             }
         }
         return res;
-    }
+    }*/ 
     
     
     /* // recursive manner   
@@ -44,3 +79,7 @@ public class Solution {
         preorder(node.right, list);
     }*/     
 }
+
+
+
+
