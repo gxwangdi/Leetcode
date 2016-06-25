@@ -9,6 +9,30 @@
  */
 public class Solution {
     
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<Pair> stack = new Stack<>();
+        stack.push(new Pair(root, false));
+        TreeNode node;
+        boolean visited;
+        while (!stack.empty()) {
+            node = stack.peek().node;
+            visited = stack.peek().visited;
+            stack.pop();
+            if (node == null) {
+                continue;
+            }
+            if (visited) {
+                res.add(node.val);
+            } else {
+                stack.push(new Pair(node, true));
+                stack.push(new Pair(node.right, false));
+                stack.push(new Pair(node.left, false));
+            }
+        }
+        return res;
+    }
+    
     
     private static class Pair {
         public TreeNode node;
@@ -19,8 +43,7 @@ public class Solution {
         }
     }
     
-    
-    // Iterative manner.        
+    /* // Iterative manner.        
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TempNode> stack = new Stack<>();
@@ -54,7 +77,7 @@ public class Solution {
             node = tn;
             isFirst = first;
         }
-    }
+    }*/
     
     
     /* // recursive manner  
