@@ -8,8 +8,42 @@
  * }
  */
 public class Solution {
+    // An awesome way to implement the iteration, so that preorder/inorder/postorder has the same implementation complexity. 
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        Stack<Pair> stack = new Stack<>();
+        stack.push(new Pair(root, false)); 
+        TreeNode temp = null;
+        boolean visited;
+        while (!stack.empty()) {
+            temp = stack.peek().node;
+            visited = stack.peek().isVisited;
+            stack.pop();
+            if (temp == null) {
+                continue;
+            }
+            if (visited) {
+                res.add(temp.val);
+            } else {
+                stack.push(new Pair(temp.right, false));
+                stack.push(new Pair(temp, true));
+                stack.push(new Pair(temp.left, false));
+            }
+        }
+        return res;
+    }
     
-    // Iterative approach   
+    private static class Pair {
+        public TreeNode node;
+        public boolean isVisited;
+        public Pair(TreeNode tn, boolean visit) {
+            node = tn;
+            isVisited = visit;
+        }
+    }
+    
+    
+    /* // Iterative approach   
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         Stack<TreeNode> stack = new Stack<>();
@@ -27,7 +61,7 @@ public class Solution {
             }
         }
         return res;
-    }
+    }*/ 
     
     
     /* // Recursive approach.  
