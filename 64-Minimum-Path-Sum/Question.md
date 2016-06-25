@@ -16,7 +16,7 @@ Given a _m_ x _n_ grid filled with non-negative numbers, find a path from top le
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Array](/tag/array/) [Dynamic Programming](/tag/dynamic-programming/)</span></div>
+<span class="hidebutton" style="display: none;">[Array](/tag/array/) [Dynamic Programming](/tag/dynamic-programming/)</span></div>
 
 <div>
 
