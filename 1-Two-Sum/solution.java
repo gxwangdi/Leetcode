@@ -1,4 +1,6 @@
 public class Solution {
+    
+    // return index, cannot sort, so map based approach. Two pointer approach applies for return value. 
     public int[] twoSum(int[] nums, int target) {
         if (nums == null || nums.length <2) {
             return null;
