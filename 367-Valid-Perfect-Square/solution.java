@@ -1,18 +1,7 @@
 public class Solution {
-    /* // O(1) solution to find sqrt(num).
-    public boolean isPerfectSquare(int num) {
-        if (num < 0) {
-            return false;
-        }
-        int root = floorSquare(num);
-        return root*root == num;
-    }
     
-    private int floorSquare(int n) {
-        double y = x;
-        
-    }*/
     
+    /* // Time O(logn)
     public boolean isPerfectSquare(int num) {
         if (num < 0) {
             return false;
@@ -23,7 +12,7 @@ public class Solution {
             x = (x + num / x) / 2;
         }
         return x * x == num;
-    }
+    }*/
     
     
     /* // iterative binary search.  Failed at 808201 
@@ -46,6 +35,8 @@ public class Solution {
         }
         return (left*left == num) || (right*right == num);
     }*/
+    
+    
     
     /* // recursive bnary search.  Failed at 808201. 
     public boolean isPerfectSquare(int num) {
