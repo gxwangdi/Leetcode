@@ -4,7 +4,7 @@ Divide the numbers in ranges like [2-3], [4-7], [8-15] and so on. And try to gen
 Or does the odd/even status of the number help you in calculating the number of 1s?
 
 
-As hints are for 2~3, 4~7, will need to manually list 0~15 and see how their binary form changes.    And observe that when it is even, it is like num<<1, and it should have the same amount of 1s as num, if it is odd, it is like num<<1+1, same amount of 1s as num plus 1. 
+As hints are for 2~3, 4~7, will need to manually list 0~15 and see how their binary form changes.    And observe that when it is even, it is like num<<1, and it should have the same amount of 1s as num, if it is odd, it is like num<<1+1, same amount of 1s as num plus 1.    So DP[i] = func(DP[i/2]), which is the hard part for DP.  
 
 i&(i-1) ==0 is used to check if a number is a power of 2, now it works in this way after manually listing from 0~15:  
 
