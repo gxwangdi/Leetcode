@@ -4,6 +4,9 @@ f[i] for forward,  means  the product from nums[0] to nums[i-1],
 b[j] for back, means the product from nums[nums.length-1] to nums[j+1]   
 
 So for result res[i] = f[i] * b[i];   
-Space O(n),  Time O(n)    
+Space O(n),  Time O(n)        
+
+// Note: Looks like this does not care about overflow, so product of int is ok to be int, not long. If I set it to long[], some wired compiling error would happen. 
 ======================================================
 Can I solve it without extra space?    
+
