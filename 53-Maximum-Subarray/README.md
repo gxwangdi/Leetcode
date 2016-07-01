@@ -5,3 +5,4 @@ Check online that it has O(n) solution.
 
 Greedy and Prefix sum.        
 
+It only requires the result, does not care the index, so learn to use the mock like max(0, sum) to cut unnecessary part into result set.   
