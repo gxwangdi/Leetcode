@@ -1,17 +1,18 @@
 public class Solution {
-    /*
+    
     public int mySqrt(int x) {
         if (x<0) {
             return -1;
         }
-        int left = 0;
-        int right = x;
+        long left = 0;
+        long right = x;
         long t;
+        long mid;
         while (left+1 < right) {
-            int mid = left + (right-left)/2;
+            mid = left + (right-left)/2;
             t = mid*mid;
             if (t == x) {
-                return mid;
+                return (int)mid;
             } else if (t < x) {
                 left = mid;
             } else {
@@ -20,12 +21,12 @@ public class Solution {
         }
         t = right * right;
         if (t > x) {
-            return left;
+            return (int)left;
         } 
-        return right;
-    }*/
+        return (int)right;
+    }
     
-    // Newton recursion 
+    /* // Newton recursion 
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
@@ -37,7 +38,8 @@ public class Solution {
             res = (res + x/res)/2;
         }
         return (int)res;
-    }
+    }*/ 
+    
 }
 
 
