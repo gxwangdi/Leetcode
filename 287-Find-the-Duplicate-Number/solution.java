@@ -20,7 +20,7 @@ public class Solution {
             if(count>mid) right=mid;
             else left=mid+1;
         }
-        return left;
+        return right;
     }
     
     /* // O(n) solution from online. 
