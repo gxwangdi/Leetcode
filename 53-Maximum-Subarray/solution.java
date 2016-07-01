@@ -1,6 +1,6 @@
 public class Solution {
     
-    /* // Greedy    
+    // Greedy    
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -15,9 +15,8 @@ public class Solution {
         }
         return max;
     }
-    */
     
-    // Prefix Sum 
+    /* // Prefix Sum 
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
@@ -32,7 +31,7 @@ public class Solution {
             minSum = Math.min(minSum, sum);
         }
         return max;
-    }
+    }*/ 
 }
 
 
