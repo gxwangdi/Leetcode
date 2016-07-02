@@ -7,6 +7,26 @@
  * }
  */
 public class Solution {
+    
+    // Recursive approach
+    public ListNode reverseList(ListNode head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+        ListNode tail = null;
+        return reverse(head, tail);
+    }
+    
+    private ListNode reverse(ListNode node, ListNode tail) {
+        if (node == null) {
+            return tail;
+        }
+        ListNode next = node.next;
+        node.next = tail;
+        return reverse(next, node);
+    }
+    
+    /* // Iterataive approach.
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -23,7 +43,8 @@ public class Solution {
         }
         head.next = null;
         return n1;
-    }// end of reverseList      
+    }// end of reverseList 
+    */
 }
 
 
