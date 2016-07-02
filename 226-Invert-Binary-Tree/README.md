@@ -1,5 +1,7 @@
 
-Well, it does not require local operation, which means node objects are not necessary consistent, it is the node.val that matters.   
+Recursive solution is like invert root, and invert left and right.
 
-Use recursive manner.    
+Iterative solution is like put root into a queue first, and poll to get node n until the queue is empty.
+
+For n, invert left and right.     
 
