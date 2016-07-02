@@ -12,19 +12,20 @@ public class Solution {
             return head;
         }
         
-        ListNode node1 = head;
-        ListNode node2 = head.next;
-        ListNode node3 = head.next.next; 
+        ListNode n1 = head;
+        ListNode n2 = head.next;
         
-        node1.next = null;
-        node2.next = node1;
-        while (node3 != null) {
-            node1 = node2;
-            node2 = node3;
-            node3 = node3.next;
-            node2.next = node1;
+        while (n2 != null) {
+            ListNode temp = n2.next;
+            n2.next = n1;
+            n1 = n2;
+            n2 = temp;
         }
-        
-        return node2;
+        head.next = null;
+        return n1;
     }// end of reverseList      
 }
+
+
+
+
