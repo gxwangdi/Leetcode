@@ -9,6 +9,30 @@
  */
 public class Solution {
     
+    public int kthSmallest(TreeNode root, int k) {
+        Stack<TreeNode> stack = new Stack<>();
+        TreeNode n = root;
+        while (n.left != null) {
+            stack.push(n);
+            n = n.left;
+        }
+        
+        while (k>0 && (n!=null || !stack.empty())) {
+            if (n == null) {
+                n = stack.pop();
+                if (--k == 0) {
+                    return n.val;
+                }
+                n = n.right;
+            } else {
+                stack.push(n);
+                n = n.left;
+            }
+        }
+        return n.val;
+    }
+    
+    /*
     private Result kst(TreeNode node, int k) {
         if (node == null) {
             return new Result(false, 0);
@@ -47,4 +71,5 @@ public class Solution {
             val = v;
         }
     }
+    */
 }
