@@ -23,15 +23,9 @@ minStack.getMin();   --> Returns -2.
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Amazon](/company/amazon/) [Bloomberg](/company/bloomberg/) [Google](/company/google/) [Snapchat](/company/snapchat/) [Uber](/company/uber/) [Zenefits](/company/zenefits/)</span></div>
+<span class="hidebutton">[Google](/company/google/) [Uber](/company/uber/) [Zenefits](/company/zenefits/) [Amazon](/company/amazon/) [Snapchat](/company/snapchat/) [Bloomberg](/company/bloomberg/)</span></div>
 
 <div>
 
