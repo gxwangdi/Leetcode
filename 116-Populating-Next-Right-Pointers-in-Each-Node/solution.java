@@ -7,6 +7,39 @@
  * }
  */
 public class Solution {
+    
+    public void connect(TreeLinkNode root) {
+        Queue<TreeLinkNode> currLevel = new LinkedList<>();
+        Queue<TreeLinkNode> nextLevel = new LinkedList<>();
+        Queue<TreeLinkNode> temp;
+        
+        if (root!=null) {
+            currLevel.offer(root);
+        }
+        
+        while (!currLevel.isEmpty()) {
+            TreeLinkNode first = null;
+            TreeLinkNode last = null;
+            while (!currLevel.isEmpty()) {
+                first = last;
+                last = currLevel.poll();
+                if (first!=null) {
+                    first.next = last;
+                }
+                if (last.left != null) {
+                    nextLevel.offer(last.left);
+                }
+                if (last.right != null) {
+                    nextLevel.offer(last.right);
+                }
+            }
+            temp = nextLevel;
+            nextLevel = currLevel;
+            currLevel = temp;
+        }
+    }
+    
+    /*
     public void connect(TreeLinkNode root) {
         
         link(root, root);
@@ -25,6 +58,8 @@ public class Solution {
             link(right, right);
         }
     }
+    */
+    
 }
 
 
