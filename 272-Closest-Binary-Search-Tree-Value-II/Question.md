@@ -28,13 +28,13 @@ Assume that the BST is balanced, could you solve it in less than _O_(_n_) runtim
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Google](/company/google/)</span></div>
+<span class="hidebutton" style="display: none;">[Google](/company/google/)</span></div>
 
 <div>
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Tree](/tag/tree/) [Stack](/tag/stack/)</span></div>
+<span class="hidebutton" style="display: none;">[Tree](/tag/tree/) [Stack](/tag/stack/)</span></div>
 
 <div>
 
