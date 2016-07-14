@@ -9,5 +9,6 @@ link(right, right);
 
 Space O(logn).     
 
+level order, put left in first.
 
 
