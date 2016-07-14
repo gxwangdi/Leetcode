@@ -10,6 +10,7 @@ public class Solution {
             for (int j=i; j<s.length(); j+=size) {
                 sb.append(s.charAt(j));
                 if (i!=0 && i!= numRows-1) {
+                    // first one and last one has only one presence in one cycle. 
                     int temp = j+size-2*i;
                     if (temp < s.length())
                         sb.append(s.charAt(temp));
