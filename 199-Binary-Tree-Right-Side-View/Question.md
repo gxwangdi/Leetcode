@@ -29,7 +29,7 @@ Special thanks to [@amrsaqr](https://leetcode.com/discuss/user/amrsaqr) for addi
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Amazon](/company/amazon/)</span></div>
+<span class="hidebutton" style="display: none;">[Amazon](/company/amazon/)</span></div>
 
 <div>
 
