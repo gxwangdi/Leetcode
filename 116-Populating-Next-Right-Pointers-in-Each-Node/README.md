@@ -9,6 +9,12 @@ link(right, right);
 
 Space O(logn).     
 
-level order, put left in first.
+level order, put left in first. 
+
+PAY ATTENTION to the Note, this is what you will need to communicate with Interviewer!                        
+
+
+
+
 
 
