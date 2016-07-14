@@ -9,15 +9,9 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Airbnb](/company/airbnb/) [Palantir](/company/palantir/)</span></div>
+<span class="hidebutton">[Palantir](/company/palantir/) [Airbnb](/company/airbnb/)</span></div>
 
 <div>
 
