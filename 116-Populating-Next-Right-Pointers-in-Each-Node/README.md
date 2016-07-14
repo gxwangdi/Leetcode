@@ -7,3 +7,7 @@ PAY ATTENTION that only when left and right is not equal then we do
 link(left, left); 
 link(right, right);
 
+Space O(logn).     
+
+
+
