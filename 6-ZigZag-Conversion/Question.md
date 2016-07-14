@@ -19,12 +19,6 @@ Write the code that will take a string and make this conversion given a number o
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[String](/tag/string/)</span></div>
