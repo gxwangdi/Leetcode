@@ -4,3 +4,6 @@ First of all, XOR all elements in the array, the outcome is (a xor b), where a a
 
 And find a b respectively in the two arrays.  
 
+Be careful about this: 
+((i>>count)&1) == 1    == has higher priority than &. 
+
