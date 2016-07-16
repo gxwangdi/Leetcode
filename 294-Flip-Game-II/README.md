@@ -11,6 +11,12 @@ Well, based on generateNextMove(String) in Flip Game, we can do level order sear
 If it is even, starter loses,  
 or starter wins if it is odd. 
 
+=========================================================
+
+jiuzhang provides a search solution, which is pretty new that dfs can run this way.  
+
+And a nimble game solution.   
+
 
 
   
