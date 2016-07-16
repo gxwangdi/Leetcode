@@ -25,7 +25,7 @@ public class Solution {
         if (key1 < key2) {
             return findkth(nums1, start1+k/2, nums2, start2, k-k/2);
         } else {
-            return findkth(nums1, start1, nums2, start2 + k/2, k-k/2);
+            return findkth(nums1, start1, nums2, start2 + k/2, k-k/2);  
         }
     }// end of findkth          
 }
