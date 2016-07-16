@@ -1,5 +1,8 @@
 public class Solution {
-    // Search    
+    
+    
+    
+     // Search    
     public boolean canWin(String s) {
         if (s == null || s.length() <2) {
             return false;
@@ -33,7 +36,6 @@ public class Solution {
         }
         return false;
     }// end of search.  
-    
 }
 
 
