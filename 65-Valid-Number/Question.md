@@ -20,7 +20,7 @@ The signature of the `C++` function had been updated. If you still see your func
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[LinkedIn](/company/linkedin/)</span></div>
+<span class="hidebutton">[LinkedIn](/company/linkedin/)</span></div>
 
 <div>
 
