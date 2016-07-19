@@ -1,10 +1,28 @@
 public class Solution {
+    
+    // DP: t(i,j) is the max profit for up to i transactions by time j (0<=i<=K, 0<=j<=T).
+    public int maxProfit(int k, int[] prices) {
+        int len = prices.length;
+        if (k >= len / 2) return solveMaxProfit(prices);
+        
+        int[][] t = new int[k + 1][len];
+        for (int i = 1; i <= k; i++) {
+            int tmpMax =  -prices[0];
+            for (int j = 1; j < len; j++) {
+                t[i][j] = Math.max(t[i][j - 1], prices[j] + tmpMax); // ??
+                tmpMax =  Math.max(tmpMax, t[i - 1][j - 1] - prices[j]);  // ??
+            }
+        }
+        return t[k][len - 1];
+    }
+    
+    /*
     public int maxProfit(int k, int[] prices) {
         if (k<=0 || prices == null || prices.length == 0) {
             return 0;
         }
         
-        if (k>=prices.length/2) {
+        if (k>=prices.length/2) {  // One transaction is buy and sell.    
             return solveMaxProfit(prices); 
         }
         
@@ -19,6 +37,7 @@ public class Solution {
         }
         return g[k];
     }
+    */
     
     // Sell and buy stock II
     private int solveMaxProfit(int[] prices) {
