@@ -9,6 +9,8 @@ Space O(n)  Time O(nlogn)
 
 This requires to master three approaches, divide and conquer, heap, merge two by two!  
 
+divide and conquer is like top->bottom,  two by two is like bottom->top.  
+
 
 
 
