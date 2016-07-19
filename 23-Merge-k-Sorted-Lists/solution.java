@@ -8,6 +8,7 @@
  */
 public class Solution {
     
+    
     // Merge two by two, it is pretty much like merge sort!  
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
