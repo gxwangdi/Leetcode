@@ -7,6 +7,9 @@ Another approach is like heap sort. We can define a heap, and put all elements i
 
 Space O(n)  Time O(nlogn) 
 
+This requires to master three approaches, divide and conquer, heap, merge two by two!  
+
+
 
 
 
