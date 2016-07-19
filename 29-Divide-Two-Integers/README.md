@@ -20,5 +20,10 @@ unsigned int migValue = dvs，i =0;
 一开始只有 while（i>=0）， 没有剪枝，当dvd ==0的时候，没必要继续循环。加一个剪枝条件。也是第一次发现原来abs(INT_MIN)的值居然还是INT_MIN。直觉上，INT_MIN的这种特性，应该跟补码有关，但是懒得深究了。
 
 关于溢出的问题，直接用unsigned long就解决了，省了很多不必要的比较和判断。
+============================== Above is for C++   
+
+For java, using negative to avoid overflow, details see the code comment.  
+
+ 
 
 
