@@ -7,7 +7,56 @@
  * }
  */
 public class Solution {
-    // Heap approach, put everything into a heap, and pop it to build a new list.
+    
+    // Merge two by two, it is pretty much like merge sort!  
+    public ListNode mergeKLists(ListNode[] lists) {
+        if (lists == null || lists.length == 0) {
+            return null;
+        }
+        List<ListNode> res = new ArrayList<>();
+        for (ListNode node : lists) {
+            res.add(node);
+        }
+        while (res.size()>1) {
+            List<ListNode> level = new ArrayList<>();
+            for (int i=0; i+1<res.size(); i+=2) {
+                ListNode merge = merge(res.get(i), res.get(i+1));
+                level.add(merge);
+            }
+            if (res.size()%2 == 1) {
+                level.add(res.get(res.size()-1));
+            }
+            res = level;
+        }
+        return res.get(0);
+    }
+    
+    private ListNode merge(ListNode n1, ListNode n2) {
+        ListNode dummy = new ListNode(0);
+        ListNode cur = dummy;
+        while (n1!=null && n2!=null) {
+            if (n1.val < n2.val) {
+                cur.next = n1;
+                n1 = n1.next;
+            } else {
+                cur.next = n2;
+                n2 = n2.next;
+            }
+            cur = cur.next;
+        }
+        if (n1 == null) {
+            cur.next = n2;
+        } else {
+            cur.next = n1;
+        }
+        return dummy.next;
+    }
+    
+    
+    
+    
+    
+    /* // Heap approach, put everything into a heap, and pop it to build a new list.
     public ListNode mergeKLists(ListNode[] lists) {
         if (lists == null || lists.length == 0) {
             return null;
@@ -42,6 +91,7 @@ public class Solution {
             return n1.val - n2.val;
         }
     };
+    */
 }
 
 
