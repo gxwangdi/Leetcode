@@ -9,8 +9,10 @@ public class Solution {
         for (int i = 1; i <= k; i++) {
             int tmpMax =  -prices[0];
             for (int j = 1; j < len; j++) {
-                t[i][j] = Math.max(t[i][j - 1], prices[j] + tmpMax); // ??
-                tmpMax =  Math.max(tmpMax, t[i - 1][j - 1] - prices[j]);  // ??
+                t[i][j] = Math.max(t[i][j - 1], prices[j] + tmpMax); 
+                // 有i次交易 到第j-1天时候的最大值， 以及第j天时候的价格和累积最小成本的最大值 max取后者表明我要在第j天进行交易
+                tmpMax =  Math.max(tmpMax, t[i - 1][j - 1] - prices[j]);  
+                // 少一次交易少一天时候的最大值＋当前最小成本， max取后者表明交易算上那一天  因为那是最小成本
             }
         }
         return t[k][len - 1];
