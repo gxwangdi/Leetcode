@@ -1,6 +1,28 @@
 public class Solution {
     
     public int majorityElement(int[] nums) {
+        int number = 0;
+        if (nums == null || nums.length == 0) {
+            return number;
+        }
+        int count = 0;
+        for (int i : nums) {
+            if (i == number) {
+                count++;
+            } else {
+                if (count == 0) {
+                    number = i;
+                } else {
+                    count--;
+                }
+            }
+        }
+        return number;
+    }
+    
+    /*
+    // Space O(n), Time O(n)
+    public int majorityElement(int[] nums) {
         int n = nums.length;
         if (n<3) return nums[0];
         int m = (n%2==0)? n/2:n/2+1;
@@ -19,6 +41,7 @@ public class Solution {
         }
         return 0;
     }// end of majorityElement     
+    */
 }
 
 
