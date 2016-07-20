@@ -5,4 +5,6 @@ And the answer is in the two numbers after one round scan. Do not have any idea 
 
 Space O(1), Time O(n).   
 
+PAY Attention to varieties of edge cases.....   
+
  
