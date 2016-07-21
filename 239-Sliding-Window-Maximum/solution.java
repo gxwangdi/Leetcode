@@ -8,6 +8,7 @@ public class Solution {
         Deque<Integer> deque = new ArrayDeque<>();
         for (int i=0; i<nums.length; i++) {
             int now = nums[i];
+            // Remove 
             while (!deque.isEmpty() && now > deque.peekLast()) {
                 deque.pollLast();
             }
