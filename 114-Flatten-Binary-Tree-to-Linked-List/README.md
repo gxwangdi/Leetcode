@@ -5,6 +5,8 @@ The iterative approach does not work for this problem.
 
 Time is O(n)
 
+Pay attention to node.left and node.right state.   
+
 
 
 
