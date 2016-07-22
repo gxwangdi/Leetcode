@@ -34,7 +34,7 @@ Assume that the BST is balanced, could you solve it in less than _O_(_n_) runtim
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: none;">[Tree](/tag/tree/) [Stack](/tag/stack/)</span></div>
+<span class="hidebutton">[Tree](/tag/tree/) [Stack](/tag/stack/)</span></div>
 
 <div>
 
