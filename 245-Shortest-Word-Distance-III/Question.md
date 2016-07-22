@@ -31,6 +31,6 @@ You may assume _word1_ and _word2_ are both in the list.
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(E) Shortest Word Distance](/problems/shortest-word-distance/) [(M) Shortest Word Distance II](/problems/shortest-word-distance-ii/)</span></div>
+<span class="hidebutton" style="display: inline;">[(E) Shortest Word Distance](/problems/shortest-word-distance/) [(M) Shortest Word Distance II](/problems/shortest-word-distance-ii/)</span></div>
