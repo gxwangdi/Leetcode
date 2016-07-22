@@ -8,8 +8,8 @@ dp[i][j] = dp[i-1][j-1],   if word1[i-1] == word2[j-1],   means no more changes 
 
 dp[i][j] = 1 + MIN( dp[i-1][j-1], dp[i-1][j], dp[i][j-1] ).  if word1[i-1] != word2[j-1].  
 Take dp[i-1][j-1] means to replace a char in either word1 or word2;
-Take dp[i-1][j] means to add a char in word1;
-take dp[i][j-1] means to add a char in word2;  
+Take dp[i-1][j] means to replace a char in word1;
+take dp[i][j-1] means to replace a char in word2;  
 
 Answer:  dp[m][n].  
 
