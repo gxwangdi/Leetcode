@@ -8,6 +8,19 @@ public class Solution extends Reader4 {
      * @return    The number of characters read
      */
     public int read(char[] buf, int n) {
+        char[] tmp = new char[4];
+        for (int i=0; i<n; i+=4) {
+            int len = read4(tmp);
+            System.arraycopy(tmp, 0, buf, i, Math.min(len, n-i));
+            if(len < 4) {
+                return Math.min(i + len, n);
+            }
+        }
+        return n;
+    }
+    
+    /*
+    public int read(char[] buf, int n) {
         int cur = 0;
         char[] temp = new char[4];
         while (cur < n) {
@@ -22,6 +35,7 @@ public class Solution extends Reader4 {
         }
         return cur;
     }
+    */
 }
 
 
