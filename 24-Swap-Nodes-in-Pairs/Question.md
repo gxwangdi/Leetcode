@@ -11,15 +11,9 @@ Your algorithm should use only constant space. You may **not** modify the values
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Bloomberg](/company/bloomberg/) [Microsoft](/company/microsoft/) [Uber](/company/uber/)</span></div>
+<span class="hidebutton" style="display: none;">[Microsoft](/company/microsoft/) [Bloomberg](/company/bloomberg/) [Uber](/company/uber/)</span></div>
 
 <div>
 
