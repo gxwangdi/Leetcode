@@ -12,3 +12,6 @@ dp[i] = (k-1)dp[i-1] + (k-1)dp[i-2];
 answer:  dp[n].  
 
 Space O(n), Time O(n);  
+
+After the %3 optimization, Space become O(1).  
+
