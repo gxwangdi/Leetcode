@@ -9,4 +9,3 @@ dp[i] = dp[i-1]*k - dp[i-2];  i=3, ... n.
 
 answer:  dp[n].  
 
- 
