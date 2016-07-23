@@ -5,7 +5,9 @@ dp[0] = 1;
 dp[1] = k;
 dp[2] = k*k;
 
-dp[i] = dp[i-1]*k - dp[i-2];  i=3, ... n.  
+dp[i] = (k-1)dp[i-1] + (k-1)dp[i-2];   
+// The color on ith post can not be the same as (i-1)th post, and can not be the same as (i-2)th post.   
+// This could be pretty clear if drawing the tree structure. 
 
 answer:  dp[n].  
 
