@@ -7,3 +7,7 @@ return count.
 
 Space O(m*n) Time O(m*n).   
 
+Solution 2 would be Union Find, not familiar with that for now.  
+
+  
+
