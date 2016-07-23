@@ -18,9 +18,6 @@ public class Solution {
             dp[cur%3] = (k-1)*(dp[(cur-1)%3] + dp[(cur-2)%3]);
             cur++;
         }
-        // for (int i=3; i<dp.length; i++) {
-        //     dp[i] = (k-1)* (dp[i-1] + dp[i-2]);
-        // }
         return dp[(cur-1)%3];
     }
 }
