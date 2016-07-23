@@ -9,14 +9,19 @@ public class Solution {
         if (n ==2) {
             return k*k;
         }
-        int[] dp = new int[n+1];
+        int[] dp = new int[3];
         dp[0] =1;
         dp[1] =k;
         dp[2] =k*k;
-        for (int i=3; i<dp.length; i++) {
-            dp[i] = (k-1)* (dp[i-1] + dp[i-2]);
+        int cur =3;
+        while (cur < n+1) {
+            dp[cur%3] = (k-1)*(dp[(cur-1)%3] + dp[(cur-2)%3]);
+            cur++;
         }
-        return dp[n];
+        // for (int i=3; i<dp.length; i++) {
+        //     dp[i] = (k-1)* (dp[i-1] + dp[i-2]);
+        // }
+        return dp[(cur-1)%3];
     }
 }
 
