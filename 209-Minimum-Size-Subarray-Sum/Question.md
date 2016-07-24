@@ -9,7 +9,7 @@ the subarray `[4,3]` has the minimal length under the problem constraint.
 
 [click to show more practice.](#)
 
-<div class="spoilers" style="display: block;">**More practice:**
+<div class="spoilers" style="display: none;">**More practice:**
 
 If you have figured out the _O_(_n_) solution, try coding another solution of which the time complexity is _O_(_n_ log _n_).
 
