@@ -10,3 +10,8 @@ and repeat this in result set until result set size does not change. If the size
 Space O(n)  Time O(nlogn)  
 
 
+knows(i, j), if it is true, then i can never be celebrity, if it is false, then j can never be celebrity.    Work around this ! ! !   
+
+Space O(1)  Time O(n)
+
+
