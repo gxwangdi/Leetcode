@@ -42,7 +42,7 @@ Special thanks to [@agave](https://leetcode.com/agave/) and [@StefanPochmann](ht
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Google](/company/google/)</span></div>
+<span class="hidebutton">[Google](/company/google/)</span></div>
 
 <div>
 
