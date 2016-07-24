@@ -5,5 +5,8 @@ Space O(logn)    Time O(n).
 
 It is BST, so we can search the target node, and maintain a stack, the stack should be like it just does a in-order search, and try to get the immediate successor.   
 
+Space O(logn), Time O(logn).   
+
+
 
 
