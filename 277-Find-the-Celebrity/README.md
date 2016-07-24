@@ -1,3 +1,5 @@
+Brute Force solution would be O(n^2), so no dp.  
+
 
 Call knows(0, i) and knows(i, 0), i=1, ..., len-1;    
 if ( knows(0,i) ), then remove 0, 
