@@ -22,7 +22,7 @@ Given `"pwwkew"`, the answer is `"wke"`, with the length of 3\. Note that the an
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Hash Table](/tag/hash-table/) [Two Pointers](/tag/two-pointers/) [String](/tag/string/)</span></div>
+<span class="hidebutton" style="display: none;">[Hash Table](/tag/hash-table/) [Two Pointers](/tag/two-pointers/) [String](/tag/string/)</span></div>
 
 <div>
 
