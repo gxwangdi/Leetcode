@@ -10,20 +10,19 @@ public class Solution {
         return res;
     }
     
-    private void getCombinations(int[] src, int start, List<List<Integer>> res, List<Integer> progress, int left) {
-        for (int i = start; i<src.length; i++) {
+    private void getCombinations(int[] src, int start, List<List<Integer>> res, List<Integer> prog, int left) {
+        for (int i=start; i<src.length; i++) {
             int val = left - src[i];
+            if (val < 0) {
+                continue;
+            }
+            List<Integer> list = new ArrayList<>(prog);
+            list.add(src[i]);
             if (val == 0) {
-                List<Integer> list = new ArrayList<>(progress);
-                list.add(src[i]);
                 res.add(list);
                 continue;
             }
-            if (val > 0) {
-                List<Integer> list = new ArrayList<>(progress);
-                list.add(src[i]);
-                getCombinations(src, i, res, list, val);
-            }
+            getCombinations(src, i, res, list, val);
         }
     }// end of getCombinations
 }
