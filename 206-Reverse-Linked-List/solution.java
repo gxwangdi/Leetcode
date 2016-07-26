@@ -34,7 +34,7 @@ public class Solution {
         }
         
         ListNode n1 = head;
-        ListNode n2 = head.next;
+        ListNode n2 = n1.next;
         n1.next = null;
         while (n2 != null) {
             ListNode temp = n2.next;
