@@ -4,6 +4,30 @@ public class Solution {
         if (nums == null || nums.length < 2) {
             return;
         }
+        int slow = 0;
+        int fast = 0;
+        while (fast < nums.length) {
+            if (nums[fast] == 0) {
+                fast++;
+                continue;
+            } else {
+                nums[slow] = nums[fast];
+                slow++;
+                fast++;
+            }
+        }
+        while (slow < nums.length) {
+            nums[slow] = 0;
+            slow++;
+        }
+    }
+    
+    /*
+    // Too complicated
+    public void moveZeroes(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return;
+        }
         int i1 = 0;
         int i2 = i1;
         while (i1 < nums.length) {
@@ -28,7 +52,8 @@ public class Solution {
         int temp = nums[i1];
         nums[i1] = nums[i2];
         nums[i2] = temp;
-    }// end of swap            
+    }// end of swap  
+    */
 }
 
 
