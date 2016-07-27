@@ -14,4 +14,4 @@ Return true because `"leetcode"` can be segmented as `"leet code"`.
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Google](/company/google/) [Uber](/company/uber/) [Facebook](/company/facebook/) [Amazon](/company/amazon/) [Yahoo](/company/yahoo/) [Bloomberg](/company/bloomberg/) [Pocket Gems](/company/pocket-gems/)</span></div>
+<span class="hidebutton">[Google](/company/google/) [Uber](/company/uber/) [Facebook](/company/facebook/) [Amazon](/company/amazon/) [Yahoo](/company/yahoo/) [Bloomberg](/company/bloomberg/) [Pocket Gems](/company/pocket-gems/)</span></div>
