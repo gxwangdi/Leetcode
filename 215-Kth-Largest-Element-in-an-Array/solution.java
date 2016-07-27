@@ -4,8 +4,8 @@ public class Solution {
         if (nums == null || nums.length == 0 || k<=0) {
             return 0;
         }
-        
-        return helper(nums, 0, nums.length-1, nums.length-k+1);
+        //Pay attention to the position, the kth largest in an ascending array is at position len-k+1
+        return helper(nums, 0, nums.length-1, nums.length-k+1); 
     }
     
     private int helper(int[] nums, int l, int r, int k) {
