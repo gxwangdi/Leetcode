@@ -1,4 +1,6 @@
 
+Note all the edge cases, fix a lot of that.  
+
 Build a map, including all the basic unit and english words mappings.  
 
 1,000,000,000   billion
