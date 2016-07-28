@@ -12,7 +12,7 @@ return `2`.
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Google](/company/google/) [Facebook](/company/facebook/)</span></div>
+<span class="hidebutton">[Google](/company/google/) [Facebook](/company/facebook/)</span></div>
 
 <div>
 
