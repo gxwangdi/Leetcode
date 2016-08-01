@@ -36,7 +36,7 @@ Special thanks to [@memoryless](https://discuss.leetcode.com/user/memoryless) fo
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton">[Hash Table](/tag/hash-table/) [Math](/tag/math/)</span></div>
+<span class="hidebutton" style="display: none;">[Hash Table](/tag/hash-table/) [Math](/tag/math/)</span></div>
 
 <div>
 
