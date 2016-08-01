@@ -9,6 +9,8 @@
  */
 public class Solution {
     
+    
+    /*
     // Iterative approach   
     public TreeNode upsideDownBinaryTree(TreeNode root) {
         TreeNode node = root; 
@@ -23,6 +25,24 @@ public class Solution {
         }
         return parent;      
     }// end of upsideDownBinaryTree
+    */
+    
+    public TreeNode upsideDownBinaryTree(TreeNode root) {
+        if (root == null) {
+            return null;
+        }
+        if (root.left == null) {
+            return root;
+        }
+        TreeNode parent = root;
+        TreeNode left = root.left;
+        TreeNode right = root.right;
+        TreeNode res = upsideDownBinaryTree(left);
+        left.left = right;
+        left.right = parent;
+        parent.left = parent.right = null;
+        return res;
+    }
 }
 
 
