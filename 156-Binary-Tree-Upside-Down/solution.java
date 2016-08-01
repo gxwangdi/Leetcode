@@ -41,6 +41,7 @@ public class Solution {
         left.left = right;
         left.right = parent;
         parent.left = parent.right = null;
+        // Take care of the children state, it would probably introduce a loop and cause MLE. 
         return res;
     }
 }
