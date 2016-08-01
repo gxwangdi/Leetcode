@@ -27,6 +27,8 @@ public class Solution {
     }// end of upsideDownBinaryTree
     */
     
+    
+    // Recursive approach.    
     public TreeNode upsideDownBinaryTree(TreeNode root) {
         if (root == null) {
             return null;
@@ -43,7 +45,7 @@ public class Solution {
         parent.left = parent.right = null;
         // Take care of the children state, it would probably introduce a loop and cause MLE. 
         return res;
-    }
+    }// end of upsideDownBinaryTree 
 }
 
 
