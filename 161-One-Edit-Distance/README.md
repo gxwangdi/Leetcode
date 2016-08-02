@@ -14,3 +14,5 @@ When inconsistency happens, we will just check the situation that only qualifies
 3) Delete 1 char from t
 	  s: a   b c
 	  t: a D b c
+
+It asks for exactly one edit distance, not less than one edit distance.  
