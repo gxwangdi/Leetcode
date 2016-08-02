@@ -1,6 +1,21 @@
 public class Solution {
     
     
+    
+    /*// n*n == 1+3+....+(2n-1)   Time O(sqrt(n)) 
+    public boolean isPerfectSquare(int num) {
+        if (num < 0) {
+            return false;
+        }
+        int i = 1;
+        while (num>0) {
+            num -= i;
+            i += 2;
+        }
+        return num == 0;
+    }*/
+    
+    
     /* // Time O(logn)
     public boolean isPerfectSquare(int num) {
         if (num < 0) {
@@ -14,6 +29,20 @@ public class Solution {
         return x * x == num;
     }*/
     
+    
+    public boolean isPerfectSquare(int num) {
+        if (num < 0) {
+            return false;
+        }
+        long left = 0, right = num;
+        while (left <= right) {
+            long mid = left + (right - left) / 2, t = mid * mid;
+            if (t == num) return true;
+            else if (t < num) left = mid + 1;
+            else right = mid - 1;
+        }
+        return false;
+    }
     
     /* // iterative binary search.  Failed at 808201 
     public boolean isPerfectSquare(int num) {
@@ -61,3 +90,7 @@ public class Solution {
         }
     }*/
 }
+
+
+
+
