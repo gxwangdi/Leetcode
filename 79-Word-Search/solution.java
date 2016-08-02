@@ -4,7 +4,7 @@ public class Solution {
             return false;
         }
         
-        // assuming board is a square matrix.
+        // board is not a square matrix.
         int m = board.length;
         int n = board[0].length;
         boolean[][] isVisited = new boolean[m][n]; 
@@ -22,6 +22,7 @@ public class Solution {
         if (word.charAt(prog) != board[x][y]) {
             return false;
         }
+        // note the order to avoid OutOfIndexException.
         prog++;
         if (prog >= word.length()) {
             return true;
@@ -39,6 +40,7 @@ public class Solution {
         if (y+1 < board[0].length && !isV[x][y+1] && isMatch(board, x, y+1, isV, word, prog)) {
             return true;
         }
+        // revert isV[x][y], means pop from stack to upper level of recursion. 
         isV[x][y] = false;
         return false;
     }// end of isMatch      
