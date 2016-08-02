@@ -3,3 +3,5 @@ Use a map<String, List<String>> to persist the <from, to> mappings, and for all 
 
 Start from JFK, for each iteration,  get the dst in the value list, and remove the dst from the value list, and add the dst to result set, set as the starting point for next iteration.   
 
+Space O(n), Time O(n).    
+
