@@ -8,6 +8,7 @@ public class Solution {
         return res;
     }
     
+    // Add smaller divider in current level recusion, bigger divider in next level recursion.
     private void helper(List<List<Integer>> res, int n, int a, List<Integer> prog) {
         if (a != -1) {
             List<Integer> list = new ArrayList<>(prog);
