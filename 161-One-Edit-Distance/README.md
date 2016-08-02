@@ -15,4 +15,4 @@ When inconsistency happens, we will just check the situation that only qualifies
 	  s: a   b c
 	  t: a D b c
 
-It asks for exactly one edit distance, not less than one edit distance.  
+It asks for exactly one edit distance, not less than one edit distance !     
