@@ -8,6 +8,7 @@
  */
 public class Solution {
     
+    // DFS in recursive manner.    
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         Map<UndirectedGraphNode, UndirectedGraphNode> map = new HashMap<>();
         return clone(node, map);
@@ -31,7 +32,7 @@ public class Solution {
     }
     
     /*
-    // 
+    // BFS in iterative manner.   
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {
         if (node == null) {
             return null;
