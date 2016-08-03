@@ -1,4 +1,6 @@
-We need something to identify it is a valid answer, which has valid quotes and max possible length.   
+Well, just check a posting in discuss,  and get an working answer.    
+
+We need something to identify if it is a valid answer, which has valid quotes and max possible length.   
 
 Check substring of S, if S.substring(2), S.substring(1, S.length-1) or S.substring(s.length-3).    
 
