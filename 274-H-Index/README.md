@@ -5,3 +5,5 @@ Looks like sorting, firstly we sort all papers in ascending order, and compare f
 
 This is difficult in that, you will need to understand the relationship first, and figure out how to utilize index as extra space.    
 
+Space O(1), Time O(nlogn).    
+
