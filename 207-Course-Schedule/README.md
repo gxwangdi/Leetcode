@@ -5,3 +5,7 @@ Review how a graph is represented and how to do DFS/BFS on the specific structur
 
 Normally, a recursive DFS is the easiest way to implement during an interview.  
 
+This implementation TLE, reference a posting in discuss :  
+https://discuss.leetcode.com/topic/51342/6ms-concise-and-clean-dfs-solution-beats-92 
+
+
