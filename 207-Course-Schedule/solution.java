@@ -2,6 +2,10 @@ public class Solution {
     
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         List<List<Integer>> graph = new ArrayList<>();
+        // status[i]=0 means not visited, or no edge
+        // 1 means it has been taken as starting point, 
+        // 2 means it has finished as starting point. 
+        // Use this to avoid duplicate check. 
         int[] status = new int[numCourses];
         for (int i=0; i<numCourses; i++) {
             graph.add(new ArrayList<>());
@@ -17,7 +21,9 @@ public class Solution {
         return true;
     }
     
+    // Return false if there is cycle, duplicate visited node. 
     private boolean dfs(int cur, List<List<Integer>> graph, int[] status) {
+        // When someone starts from cur, and go back to cur somehow, then there is a cycle. 
         if (status[cur] == 1) {
             return false;
         }
@@ -27,6 +33,7 @@ public class Solution {
                 return false;
             }
         }
+        // now cur does not have cycle for sure. 
         status[cur] = 2;
         return true;
     }
