@@ -1,5 +1,5 @@
 
-Looks like sorting, firstly we sort all papers in ascending order, and compare from first to last,   if arr[i] >= arr.length-i, then i qualifies for H-Index.  
+Looks like sorting, firstly we sort all papers in ascending order, and compare from  last to 1,  check citations[0] and citations.length first.   
 
-Find the biggest one.     
+This is difficult in that, you will need to understand the relationship first, and figure out how to utilize index as extra space.    
 
