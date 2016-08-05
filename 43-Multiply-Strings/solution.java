@@ -5,12 +5,12 @@ public class Solution {
         }
         int n1 = num1.length();
         int n2 = num2.length();
-        int[] product = new int[n1+n2];
+        int[] product = new int[n1+n2]; // Note the upper bound of the size.
         for (int i=n1-1; i>=0; i--) {
             for (int j=n2-1; j>=0; j--) {
                 int i1 = num1.charAt(i) - '0';
                 int i2 = num2.charAt(j) - '0';
-                product[i+j+1] += i1*i2;
+                product[i+j+1] += i1*i2; // Note the index. 
             }
         }
         
