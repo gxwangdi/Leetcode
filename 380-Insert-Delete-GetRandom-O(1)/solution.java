@@ -31,7 +31,7 @@ public class RandomizedSet {
         m1.remove(val);
         m2.remove(k);
         counter--;
-        if (counter == k) {
+        if (counter == k) { // think of this case !    
             return true;
         }
         int v1 = m2.get(counter);
