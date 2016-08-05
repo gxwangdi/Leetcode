@@ -3,7 +3,7 @@ Easy to find the root, which is the first one in the range, and check if there i
 
 Recursively check this from root to leaf.  
 
-Well, this gets TLE.  
+Well, this gets TLE.   Time O(nlogn).    
 ==============================================
 
  
