@@ -12,11 +12,10 @@ if j == '*',  check (s, i+1, p, j+1) || (s, i+1, p, j)
 else  return false;
 =================================TLE      
 
+DP solution,   Space O(mn)  Time O(mn).   
 dp[i][j] means s[0...i-1] matches p[0...j-1].   
-
 init: 
 dp[0][0] = true,  dp[0][j] = true before first '*',  dp[i][0] = false for [1...s.length].  
-
 transition:
 
 
