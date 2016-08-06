@@ -5,3 +5,8 @@ column[i][j] means how many enemies I can kill at most on column j, if I put a b
 
 row[i][j] means how many enemies  I can kill at most on row i, if I put a bomb at i,j.  
 
+init would take O(n^2).    
+
+answer would be max value in dp[i][j].  
+
+
