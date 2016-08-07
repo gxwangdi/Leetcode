@@ -1,5 +1,6 @@
 public class Solution {
     
+    
     public int numberOfPatterns(int m, int n) {
         int[][] skip = new int[10][10];
         // It is only 1-9, so we can hard code the skip relationship.
@@ -98,19 +99,19 @@ public class Solution {
             return true;
         } 
         
-        if (diffX == 2 && diffY == 1) {
-            int x = 1;
-            if (set.contains(new Pair(x, s.y)) && set.contains(new Pair(x, e.y))) {
-                return true;
-            }
-        }
+        // if (diffX == 2 && diffY == 1) {
+        //     int x = 1;
+        //     if (set.contains(new Pair(x, s.y)) && set.contains(new Pair(x, e.y))) {
+        //         return true;
+        //     }
+        // }
         
-        if (diffX == 1 && diffY == 2) {
-            int y = 1;
-            if (set.contains(new Pair(s.x, y)) && set.contains(new Pair(e.x, y))) {
-                return true;
-            }
-        }
+        // if (diffX == 1 && diffY == 2) {
+        //     int y = 1;
+        //     if (set.contains(new Pair(s.x, y)) && set.contains(new Pair(e.x, y))) {
+        //         return true;
+        //     }
+        // }
         
         if (diffX == 2 && diffY == 0) {
             if (set.contains(new Pair(1, s.y))) {
