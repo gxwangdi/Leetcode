@@ -8,16 +8,25 @@ public class Solution {
             height.add(new int[]{arr[1], arr[2]});
         }
         
-        Collections.sort(height, new Comparator<int[]>(){
-            public int compare(int[] a, int[] b) {
-                if (a[0] != b[0]) {
-                    return a[0]-b[0];
-                }
-                return a[1]-b[1];
+        // Collections.sort(height, new Comparator<int[]>(){
+        //     public int compare(int[] a, int[] b) {
+        //         if (a[0] != b[0]) {
+        //             return a[0]-b[0];
+        //         }
+        //         return a[1]-b[1];
+        //     }
+        // });
+        // Java 8
+        Collections.sort(height, (a,b)->{
+            if (a[0] != b[0]) {
+                return a[0]-b[0];
             }
+            return a[1]-b[1];
         });
         
-        Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        // Queue<Integer> maxHeap = new PriorityQueue<>(Collections.reverseOrder());
+        // Java 8 
+        Queue<Integer> maxHeap = new PriorityQueue<>((a,b)->(b-a));
         maxHeap.offer(0);
         int prev = 0;
         for (int[] h:height) {
