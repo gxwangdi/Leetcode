@@ -1,6 +1,6 @@
 public class Solution {
     
-    // 
+    // Reference a posting in discuss. 
     public List<String> generateAbbreviations(String word) {
         List<String> res = new ArrayList<>();
         dfs(res, new StringBuilder(), word.toCharArray(), 0, 0);
@@ -22,7 +22,7 @@ public class Solution {
             }
             dfs(res, prog.append(src[i]), src, i+1, 0); // not abbr src[i]
         }
-        prog.setLength(len);
+        prog.setLength(len); // backtracing.   
     }
     
     /* // this implementation is too....complecated. Basically it treats the problem as a tree.
