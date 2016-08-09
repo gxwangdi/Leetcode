@@ -16,22 +16,20 @@ public class RandomizedCollection {
 			exist = true;
 		}
 		map.get(val).add(list.size() - 1);
-
-                return exist;
+        return exist;
 	}
 
 	public boolean remove(int val) {
 		if (map.containsKey(val) == false) {
 			return false;
 		}
-
 		List<Integer> indexes = map.get(val);
 		map.remove(val);
 
-                int max = Integer.MIN_VALUE;
-                for(Integer index: indexes) {
-                        max = Math.max(max, index.intValue());
-                }
+        int max = Integer.MIN_VALUE;
+        for(Integer index: indexes) {
+            max = Math.max(max, index.intValue());
+        }
 
 		if (max == list.size() - 1) {
 			list.remove(list.size() - 1);
@@ -44,7 +42,6 @@ public class RandomizedCollection {
 			list.set(max, list.get(list.size() - 1));
 			list.remove(list.size() - 1);
 		}
-
 		return true;
 	}
 
