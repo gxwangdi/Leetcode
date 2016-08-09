@@ -5,4 +5,5 @@ If it is sorted prior, then use binary search, find the latest one that satisfie
 
 Space O(1),  Time O(logn).     
 
- 
+ Note binary search end condition.  
+
