@@ -8,7 +8,7 @@ public class Solution {
     public Solution(ListNode head) {
         this.head = head;
         ListNode p = head;
-        while(p != null){
+        while(p != null){ // How it counts len! 
             p = p.next;
             len++;
         }
@@ -18,9 +18,10 @@ public class Solution {
     public int getRandom() {
         ListNode p = head;
         int k = rand.nextInt(len);
-        int i = 0;
-        while(i++ < k){
+        // int i = 0;
+        while( k>0 ){
             p = p.next;
+            k--;
         }
         return p.val;
     }
