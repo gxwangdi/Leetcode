@@ -1,4 +1,4 @@
-Edge case, what if denominator is 0?  
+Edge case, what if denominator is 0?   Looks like denominator can never be 0.
 
 Basically we use stringbuilder to collect result set.  
 
