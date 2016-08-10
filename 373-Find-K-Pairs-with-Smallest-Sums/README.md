@@ -4,6 +4,7 @@ Note duplicate elements, then you will need to take care of the boundary, like f
 [-3,22,35,56,76]
 22   
 
+This one looks trivial but easy to get wrong, and my implementation is just too long and complicated !  
 
 
 Brute force manner would be, to prepare a maxHeap, and maintain size k, and scan all possible pairs.   If arrA.length * arrB.length <=k, then brute force to take every single pair. 
