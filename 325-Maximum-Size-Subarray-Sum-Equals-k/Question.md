@@ -21,7 +21,7 @@ Can you do it in O(_n_) time?
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Palantir](/company/palantir/) [Facebook](/company/facebook/)</span></div>
+<span class="hidebutton" style="display: none;">[Palantir](/company/palantir/) [Facebook](/company/facebook/)</span></div>
 
 <div>
 
