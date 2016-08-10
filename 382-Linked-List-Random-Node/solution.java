@@ -1,31 +1,46 @@
 public class Solution {
 
-    java.util.Random rand = new java.util.Random();
-    int len = 0;
-    ListNode head;
+    // java.util.Random rand = new java.util.Random();
+    // int len = 0;
+    // ListNode head;
      
-    /** @param head The linked list's head. Note that the head is guanranteed to be not null, so it contains at least one node. */
+    // public Solution(ListNode head) {
+    //     this.head = head;
+    //     ListNode p = head;
+    //     while(p != null){ // How it counts len! 
+    //         p = p.next;
+    //         len++;
+    //     }
+    // }
+    
+    // public int getRandom() {
+    //     ListNode p = head;
+    //     int k = rand.nextInt(len);
+    //     // int i = 0;
+    //     while( k>0 ){
+    //         p = p.next;
+    //         k--;
+    //     }
+    //     return p.val;
+    // }
+    
+    private java.util.Random rand;
+    private List<Integer> list;
+    
     public Solution(ListNode head) {
-        this.head = head;
-        ListNode p = head;
-        while(p != null){ // How it counts len! 
-            p = p.next;
-            len++;
+        rand = new java.util.Random();
+        ListNode cur = head;
+        list = new ArrayList<>();
+        while (cur!=null) {
+            list.add(cur.val);
+            cur = cur.next;
         }
-    }
-     
-    /** Returns a random node's value. */
-    public int getRandom() {
-        ListNode p = head;
-        int k = rand.nextInt(len);
-        // int i = 0;
-        while( k>0 ){
-            p = p.next;
-            k--;
-        }
-        return p.val;
     }
     
+    public int getRandom() {
+        int index = rand.nextInt(list.size());
+        return list.get(index);
+    }
     
     // int count;
     // private ListNode head;
