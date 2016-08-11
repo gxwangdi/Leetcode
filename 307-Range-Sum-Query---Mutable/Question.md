@@ -28,6 +28,6 @@ sumRange(0, 2) -> 8
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(E) Range Sum Query - Immutable](/problems/range-sum-query-immutable/) [(H) Range Sum Query 2D - Mutable](/problems/range-sum-query-2d-mutable/)</span></div>
+<span class="hidebutton" style="display: inline;">[(E) Range Sum Query - Immutable](/problems/range-sum-query-immutable/) [(H) Range Sum Query 2D - Mutable](/problems/range-sum-query-2d-mutable/)</span></div>
