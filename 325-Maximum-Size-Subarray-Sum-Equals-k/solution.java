@@ -6,17 +6,19 @@ public class Solution {
         }
         int max = 0;
         int n = nums.length;
-        int[] sum = new int[n+1];
-        sum[0] = 0;
+        // int[] sum = new int[n+1];
+        // sum[0] = 0;   
+        // If the index is stored in the map, we do not need the sum array here. 
+        int sum = 0;
         Map<Integer, Integer> map = new HashMap<>();
         map.put(k, 0);
         for (int i=1; i<=n; i++) {
-            sum[i] = sum[i-1]+nums[i-1];
-            if (map.containsKey(sum[i])) {
-                int len = i - map.get(sum[i]);
+            sum += nums[i-1];
+            if (map.containsKey(sum)) {
+                int len = i - map.get(sum);
                 max = Math.max(max, len);
             }
-            int key = k+sum[i];
+            int key = k+sum;
             // Do not update if it contains.
             if (!map.containsKey(key)) {
                 map.put(key, i);
