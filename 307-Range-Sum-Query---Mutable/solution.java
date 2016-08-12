@@ -1,5 +1,49 @@
 public class NumArray {
     
+    // Binary Index Tree Approach
+    private int[] nums;
+    private int[] BIT;
+    private int n;
+    
+    public NumArray(int[] nums) {
+        this.nums = nums;
+        
+        n = nums.length;
+        BIT = new int[n+1];
+        for (int i=0; i<n; i++) {
+            init(i, nums[i]);
+        }
+    }
+    
+    private void init(int index, int val) {
+        index++;
+        while (index <= n) {
+            BIT[index] += val;
+            index += (index & -index);
+        }
+    }
+    
+    void update(int i, int val) {
+        int diff = val - nums[i];
+        nums[i] = val;
+        init(i, diff);
+    }
+    
+    private int getSum(int i) {
+        int sum = 0;
+        i++;
+        while (i > 0) {
+            sum += BIT[i];
+            i -= (i & -i);
+        }
+        return sum;
+    }
+    
+    public int sumRange(int i, int j) {
+        return getSum(j) - getSum(i-1);
+    }
+    
+    /*
     // Segment Tree Approach
     private static class SegmentTreeNode {
         public int start;
@@ -84,6 +128,7 @@ public class NumArray {
             return sumRange(stn.left, left, mid) + sumRange(stn.right, mid+1, right);
         }
     }
+    */
     
     
     
