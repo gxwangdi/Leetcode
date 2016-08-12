@@ -9,6 +9,10 @@ http://zisong.me/post/suan-fa/geng-jian-dan-de-bian-li-er-cha-shu-de-fang-fa
 
 This is really, really amazing!      
 
+==================================
+
+Morris traversal provides a non-iterative way with O(1) space.     
+
 
 
 
