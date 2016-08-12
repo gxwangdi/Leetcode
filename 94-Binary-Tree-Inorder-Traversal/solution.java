@@ -8,6 +8,38 @@
  * }
  */
 public class Solution {
+    
+    // Morris Traversal
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        TreeNode cur = root;
+        TreeNode prev = null;
+        while (cur!=null) {
+            if (cur.left == null) {
+                res.add(cur.val);
+                cur = cur.right;
+            } else {
+                // find predecessor 
+                prev = cur.left;
+                while (prev.right!=null && prev.right!=cur) {
+                    prev = prev.right;
+                }
+                if (prev.right == null) {
+                    prev.right = cur;
+                    cur = cur.left;
+                } else {
+                    prev.right = null;
+                    res.add(cur.val);
+                    cur = cur.right;
+                }
+            }
+        }
+        return res;
+    }
+    
+    
+    
+    /*
     // An awesome way to implement the iteration, so that preorder/inorder/postorder has the same implementation complexity. 
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -41,6 +73,7 @@ public class Solution {
             isVisited = visit;
         }
     }
+    */
     
     
     /* // Iterative approach   
