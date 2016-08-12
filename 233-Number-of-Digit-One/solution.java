@@ -19,6 +19,8 @@ public class Solution {
             return 1;
         }
         
+        // Assuming n is "21345" 
+        // numFirstDigit is the amount of first digit among 10000~19999
         int numFirstDigit = 0;
         if (first > 1) {
             numFirstDigit = PowerBase10(len -1);
@@ -26,8 +28,9 @@ public class Solution {
             numFirstDigit = Integer.valueOf(n.substring(1)) +1;
         }
         
+        // numOtherDigits is the amount of 1s in all digits except the first digit among 1346~21345.
         int numOtherDigits = first *(len-1) *PowerBase10(len-2);
-        
+        // numRecursive is the amount of 1s among 1~1345
         int numRecursive = NumberOf1(n.substring(1)); //
         
         return numFirstDigit + numOtherDigits + numRecursive;
