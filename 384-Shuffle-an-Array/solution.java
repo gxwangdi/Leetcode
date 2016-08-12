@@ -16,7 +16,8 @@ public class Solution {
     /** Returns a random shuffling of the array. */
     public int[] shuffle() {
         int n = src.length;
-        int[] arr = Arrays.copyOf(src, n);
+        // int[] arr = Arrays.copyOf(src, n);
+        int[] arr = src.clone();
         for (int i=n-1; i>=1; i--) {
             // int j = (int)(Math.random()*i);      
             int j = rand.nextInt(i+1);     
