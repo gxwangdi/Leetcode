@@ -11,21 +11,15 @@ Special thanks to [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianc
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton">[Google](/company/google/)</span></div>
+<span class="hidebutton" style="display: none;">[Google](/company/google/)</span></div>
 
 <div>
 
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: none;">[Dynamic Programming](/tag/dynamic-programming/) [Breadth-first Search](/tag/breadth-first-search/) [Math](/tag/math/)</span></div>
+<span class="hidebutton">[Dynamic Programming](/tag/dynamic-programming/) [Breadth-first Search](/tag/breadth-first-search/) [Math](/tag/math/)</span></div>
 
 <div>
 
