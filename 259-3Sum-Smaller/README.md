@@ -6,5 +6,8 @@ i, j,  k,  if the sum is bigger than target, move k to the left, and once the su
 Time O(n^3) Space O(1).     
 ===========================================
 
+To solve it in O(n^2),  Need to figure out a structure to persist intermediate results, and split the overall process, like O(n^2) + O(n). 
+
+ 
 
    
