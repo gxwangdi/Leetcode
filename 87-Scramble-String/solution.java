@@ -18,8 +18,10 @@ public class Solution {
                 return false;
             }
         }
+        // Above verify if s1 and s2 are anagram
         
         for (int i=1; i<s1.length(); i++) {
+            // Pay attention to these two possible case, this is where this problem is different from a normal anagram problem. 
             if (isScramble(s1.substring(0,i), s2.substring(0,i)) 
                 && isScramble(s1.substring(i), s2.substring(i))) {
                 return true;
