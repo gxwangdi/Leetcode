@@ -1,10 +1,11 @@
 public class Solution {
     
+    // pre and after can not handle Integer.MIN_VALUE, can extend to long. 
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {
         List<String> res = new ArrayList<>();
-        int pre = lower-1;
+        int pre = lower-1; // Pay attention to the preprocessing.
         for (int i=0; i<=nums.length; i++) {
-            int after = i==nums.length?upper+1:nums[i];
+            int after = i==nums.length?upper+1:nums[i];  // and the upper+1
             if (after - pre > 1) {
                 res.add(getRange(pre+1, after-1));
             }
