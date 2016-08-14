@@ -1,6 +1,6 @@
 public class Solution {
     
-    // My implementation does not work for now, as there could be duplicate dependency like [1,9] [1,9], and set removes duplicates.
+    // My implementation does not work for now, as there could be duplicate dependency like [1,9] [1,9], and set removes duplicates. Replace graph as List<List<Integer>> resolves the issue. 
     public int[] findOrder(int numCourses, int[][] prerequisites) {
         int[] res = new int[numCourses];
         if (prerequisites == null || prerequisites.length == 0) {
