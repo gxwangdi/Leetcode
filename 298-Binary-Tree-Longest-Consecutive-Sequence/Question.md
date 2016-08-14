@@ -34,7 +34,7 @@ Longest consecutive sequence path is `2-3`,not`3-2-1`, so return `2`.
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Google](/company/google/)</span></div>
+<span class="hidebutton">[Google](/company/google/)</span></div>
 
 <div>
 
