@@ -5,4 +5,6 @@ Or we can use an array to indicate which node is added into result set.   During
 =======================================
 Get an TLE. Firstly, we can use an array to replace the map, as the key is sequential, 
  
+Need to understand the dependency matrix quickly ! ! ! ! And design proper structure to help speed up the checking dependency process.  This is the key !  
 
+ 
