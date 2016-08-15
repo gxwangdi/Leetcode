@@ -26,6 +26,7 @@ public class Solution {
         initializePredecessorStack(root, target, pred);
         initializeSuccessorStack(root, target, succ);
         if(!succ.isEmpty() && !pred.isEmpty() && succ.peek().val == pred.peek().val) {
+            // root.val == target.
             getNextPredecessor(pred);
         }
         while (k-- > 0) {
@@ -46,6 +47,7 @@ public class Solution {
         return ret;
     }
     
+    // Put all successors along the route from root to the node closest to target into succ stack.
     private void initializeSuccessorStack(TreeNode root, double target, Stack<TreeNode> succ) {
         while (root != null) {
             if (root.val == target) {
@@ -60,6 +62,7 @@ public class Solution {
         }// end of root loop
     }
     
+    // Put all predecessors along the route from root to the node closest to target into pre stack.
     private void initializePredecessorStack(TreeNode root, double target, Stack<TreeNode> pre) {
         while (root != null) {
             if (root.val == target) {
@@ -74,6 +77,7 @@ public class Solution {
         }// end of root loop
     }
     
+    // Get the value of the peek node, but prepare the stack peek as the right next node in in-order sequence.    
     private int getNextSuccessor(Stack<TreeNode> suc) {
         TreeNode cur = suc.pop();
         int ret = cur.val;
@@ -86,6 +90,7 @@ public class Solution {
         return ret;
     }
     
+    // Get the value of the peek node, but prepare the stack peek as the right previous node in in-order sequence. 
     private int getNextPredecessor(Stack<TreeNode> pre) {
         TreeNode cur = pre.pop();
         int ret = cur.val;
