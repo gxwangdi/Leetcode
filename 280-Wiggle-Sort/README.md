@@ -15,3 +15,6 @@ Accordingly, when element at even position is bigger than its previous element, 
 
 Time O(n)   Space O(1).         
 
+Note that,  to deal with previous part, make it align specific requirements.     
+
+     
