@@ -9,5 +9,8 @@ Reference the most popular posting in discuss
 
 https://discuss.leetcode.com/topic/33246/java-15ms-easiest-solution-100-00/2
 
+Grab all strings into a trie, and visit all cells in the matrix.  Put it as 'X' to avoid duplicate visit.  When visiting something, check if there is a leaf node inside trie.  
+
+  
  
 
