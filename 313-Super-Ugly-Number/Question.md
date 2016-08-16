@@ -28,6 +28,6 @@ Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi) for 
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(M) Ugly Number II](/problems/ugly-number-ii/)</span></div>
+<span class="hidebutton" style="display: inline;">[(M) Ugly Number II](/problems/ugly-number-ii/)</span></div>
