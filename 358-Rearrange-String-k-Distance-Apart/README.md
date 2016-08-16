@@ -10,6 +10,9 @@ As it is asking for one valid answer, so it would be DFS.
 
 Naive DFS gets TLE, use greedy algorithm.  The most left element available gets inserted first.  This makes sense as you would like to arrange chars that left most.   
 
+Note that count[i] > max, that means if couple of chars have the same left count, then take it in lex order.  
+
+
 
 
 
