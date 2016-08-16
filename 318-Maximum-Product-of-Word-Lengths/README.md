@@ -5,4 +5,8 @@ Well, we can use an int to represent char presence for a string, which removes  
 
 Time O(n^2),   Space O(n)   
 
+Note that &  should be wrap with "( )".  
+
+
+
         
