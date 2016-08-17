@@ -14,6 +14,7 @@ public class Solution {
             }
             j++;
         }
+        // Pay attention to how i and j changes, and the exit state.
         res.add(getString(nums[i], nums[j-1]));
         return res;
     }
