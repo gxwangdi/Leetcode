@@ -10,6 +10,10 @@ Follow up:
 - 10  live (next) <- dead (current)  
 - 11  live (next) <- live (current) 
 
+To get the current state, simply do   board[i][j] & 1  
+To get the next state, simply do   board[i][j] >> 1   
 
 For boundary, we can use cycle, like <x%len, y%len>.    
+
+
 
