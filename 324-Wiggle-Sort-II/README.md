@@ -16,4 +16,6 @@ https://discuss.leetcode.com/topic/41464/step-by-step-explanation-of-index-mappi
 
 Have not figured out index mapping.  but an easier to understand solution with O(n) Space will do the trick.  
 
+Well, this definitely qualifies for a Hard problem +_+     
 
+  
