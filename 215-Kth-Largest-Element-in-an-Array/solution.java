@@ -23,7 +23,7 @@ public class Solution {
         }
     }// end of helper
     
-    public int partition(int[] nums, int start, int end) {
+    private int partition(int[] nums, int start, int end) {
         int left = start;
         int right = end;
         int pivot = nums[left];
