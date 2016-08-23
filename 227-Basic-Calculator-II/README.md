@@ -5,4 +5,4 @@ For each iteration, will keep the last symbol if it is + or -, and the last numb
 
 For each iteration, if the symbol has a higher priority, pop the last iteration by reversing the operation and the last number.   
 
-can I assume each number only takes one char?     
+Can I assume each number only takes one char?  No.     
