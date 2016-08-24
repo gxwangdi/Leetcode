@@ -18,21 +18,15 @@ Return the array `[2, 1, 1, 0]`.
 
 <div>
 
-[Subscribe](/subscribe/) to see which companies asked this question
-
-</div>
-
-<div>
-
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Google](/company/google/)</span></div>
+<span class="hidebutton">[Google](/company/google/)</span></div>
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
-<span class="hidebutton" style="display: inline;">[Divide and Conquer](/tag/divide-and-conquer/) [Binary Indexed Tree](/tag/binary-indexed-tree/) [Segment Tree](/tag/segment-tree/) [Binary Search Tree](/tag/binary-search-tree/)</span></div>
+<span class="hidebutton">[Divide and Conquer](/tag/divide-and-conquer/) [Binary Indexed Tree](/tag/binary-indexed-tree/) [Segment Tree](/tag/segment-tree/) [Binary Search Tree](/tag/binary-search-tree/)</span></div>
 
 <div>
 
