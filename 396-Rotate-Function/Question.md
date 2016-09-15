@@ -35,7 +35,7 @@ So the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.
 
 <div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
 
-<span class="hidebutton" style="display: none;">[Amazon](/company/amazon/)</span></div>
+<span class="hidebutton">[Amazon](/company/amazon/)</span></div>
 
 <div>
 
