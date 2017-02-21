@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+
+
+public class TwoSum {
     
     // return index, cannot sort, so map based approach. Two pointer approach applies for return value. 
     public int[] twoSum(int[] nums, int target) {

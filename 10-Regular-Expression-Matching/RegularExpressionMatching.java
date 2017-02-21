@@ -1,4 +1,4 @@
-public class Solution {
+public class RegularExpressionMatching {
     
     /* // Java API is accepted. 
     public boolean isMatch(String s, String p) {
