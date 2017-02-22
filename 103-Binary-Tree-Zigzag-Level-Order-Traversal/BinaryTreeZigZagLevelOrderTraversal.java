@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Stack;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +11,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeZigZagLevelOrderTraversal {
     public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {

@@ -1,4 +1,4 @@
-public class Solution {
+public class InterleavingString {
     public boolean isInterleave(String s1, String s2, String s3) {
         if (s1 == null || s2 == null || s3 == null || s3.length()!= s1.length() + s2.length()) {
             return false;

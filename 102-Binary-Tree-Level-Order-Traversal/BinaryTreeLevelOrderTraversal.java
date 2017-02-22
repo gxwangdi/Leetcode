@@ -1,3 +1,9 @@
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +13,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeLevelOrderTraversal{
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> res = new ArrayList<List<Integer>>();
         if (root == null) {

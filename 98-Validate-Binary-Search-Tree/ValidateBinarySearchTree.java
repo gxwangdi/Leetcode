@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ValidateBinarySearchTree {
     
     public boolean isValidBST(TreeNode root) {
         if (root == null) {
