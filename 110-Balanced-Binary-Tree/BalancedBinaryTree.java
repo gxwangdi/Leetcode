@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BalancedBinaryTree {
     
     public boolean isBalanced(TreeNode root) {
         if (root == null) {

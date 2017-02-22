@@ -1,4 +1,4 @@
-public class Solution {
+public class WordSearch {
     public boolean exist(char[][] board, String word) {
         if (board == null || board.length==0 || word == null || word.length() == 0) {
             return false;

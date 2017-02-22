@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PathSum {
     
     public boolean hasPathSum(TreeNode root, int sum) {
 	    if (root == null)

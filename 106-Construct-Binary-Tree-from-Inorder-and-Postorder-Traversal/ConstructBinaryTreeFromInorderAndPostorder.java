@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ConstructBinaryTreeFromInorderAndPostorder {
     public TreeNode buildTree(int[] inorder, int[] postorder) {
         if (inorder == null || postorder == null) {
             return null;
