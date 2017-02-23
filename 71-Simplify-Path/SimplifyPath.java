@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SimplifyPath {
     public String simplifyPath(String path) {
         if (path == null || path.length()==0) {
             return "";
