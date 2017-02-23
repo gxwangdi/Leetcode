@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.List;
+
+public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
         int min = Integer.MAX_VALUE;
         if (triangle == null || triangle.size() == 0) {
