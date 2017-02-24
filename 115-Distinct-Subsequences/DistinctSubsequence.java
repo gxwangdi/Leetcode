@@ -1,4 +1,4 @@
-public class Solution {
+public class DistinctSubsequence {
     public int numDistinct(String s, String t) {
         if (s == null || t == null) {
             return 0;

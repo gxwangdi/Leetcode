@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class MinimumDepthOfBinaryTree {
     
     public int minDepth(TreeNode root) {
         if (root == null) {

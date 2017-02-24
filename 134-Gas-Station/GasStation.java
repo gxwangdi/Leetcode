@@ -1,4 +1,4 @@
-public class Solution {
+public class GasStation {
     
     public int canCompleteCircuit(int[] gas, int[] cost) {
         if (gas == null || cost == null || gas.length != cost.length) {

@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class FlattenBinaryTreeToLinkedList {
     
     // Space O(1) solutin.
     public void flatten(TreeNode root) {
