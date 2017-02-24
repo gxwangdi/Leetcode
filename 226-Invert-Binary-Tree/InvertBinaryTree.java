@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -8,7 +11,7 @@
  * }
  */
  
-public class Solution {
+public class InvertBinaryTree {
     
     /* // Recursive approach
     public TreeNode invertTree(TreeNode root) {

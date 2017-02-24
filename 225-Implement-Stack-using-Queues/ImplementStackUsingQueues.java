@@ -1,4 +1,7 @@
-class MyStack {
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+class ImplementStackUsingQueues {
     
     private Integer topElement;
     

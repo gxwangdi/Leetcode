@@ -1,4 +1,4 @@
-public class Solution {
+public class BasicCalculatorII {
     public int calculate(String s) {
         if (s == null) {
             return 0;
