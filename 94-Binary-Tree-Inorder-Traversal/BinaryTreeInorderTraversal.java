@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +10,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeInorderTraversal {
     
     // Morris Traversal
     public List<Integer> inorderTraversal(TreeNode root) {

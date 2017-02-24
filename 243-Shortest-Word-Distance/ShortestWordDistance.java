@@ -1,4 +1,4 @@
-public class Solution {
+public class ShortestWordDistance {
     public int shortestDistance(String[] words, String word1, String word2) {
         int min = Integer.MAX_VALUE;
         if (words == null || words.length <2) {

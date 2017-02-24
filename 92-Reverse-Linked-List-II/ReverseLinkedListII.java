@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ReverseLinkedListII {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         if (head == null || n<=m) {
             return head;

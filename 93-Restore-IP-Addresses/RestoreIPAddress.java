@@ -1,4 +1,7 @@
-public class Solution {       
+import java.util.ArrayList;
+import java.util.List;
+
+public class RestoreIPAddress {       
     
     public List<String> restoreIpAddresses(String s) {
         List<String> res = new ArrayList<>();   

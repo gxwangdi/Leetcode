@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class MajorityElementII {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> res = new ArrayList<>();
         if (nums == null || nums.length == 0) {

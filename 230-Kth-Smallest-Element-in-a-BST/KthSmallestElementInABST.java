@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +9,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class KthSmallestElementInABST {
     
     public int kthSmallest(TreeNode root, int k) {
         Stack<TreeNode> stack = new Stack<>();

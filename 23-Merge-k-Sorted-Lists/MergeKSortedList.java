@@ -1,12 +1,16 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) { val = x; }
- * }
- */
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+
+class ListNode {
+     int val;
+     ListNode next;
+     ListNode(int x) { val = x; }
+ }
+
+
+/*Facebook onsite.*/
+public class MergeKSortedList {
     
     
     // Merge two by two, it is pretty much like merge sort!  

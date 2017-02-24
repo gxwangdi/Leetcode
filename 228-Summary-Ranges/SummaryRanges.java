@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SummaryRanges {
     public List<String> summaryRanges(int[] nums) {
         List<String> res = new ArrayList<>();
         if (nums == null || nums.length ==0) {

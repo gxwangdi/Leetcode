@@ -1,8 +1,13 @@
-public class WordDistance {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class ShortestWordDistanceII {
 
     private Map<String, List<Integer>> map;
     
-    public WordDistance(String[] words) {
+    public ShortestWordDistanceII(String[] words) {
         map = new HashMap<>();
         if (words == null || words.length ==0) {
             return;

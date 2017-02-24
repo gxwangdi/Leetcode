@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PalindromeLinkedList {
     
     public boolean isPalindrome(ListNode head) {
         if (head == null || head.next == null) return true;

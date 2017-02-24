@@ -1,4 +1,4 @@
-public class Solution {
+public class NumberOfDigitOne {
     
     public int countDigitOne(int n) {
         if (n < 1) {

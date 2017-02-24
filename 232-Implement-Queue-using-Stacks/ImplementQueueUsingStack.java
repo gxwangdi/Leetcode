@@ -1,4 +1,6 @@
-class MyQueue {
+import java.util.Stack;
+
+public class ImplementQueueUsingStack {
     
     private Stack<Integer> in = new Stack<>();
     private Stack<Integer> out = new Stack<>();
