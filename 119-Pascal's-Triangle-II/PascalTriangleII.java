@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class PascalTriangleII {
     public List<Integer> getRow(int rowIndex) {
         if (rowIndex <0) 
             return null;

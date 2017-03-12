@@ -1,3 +1,6 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
 /**
  * Definition for binary tree with next pointer.
  * public class TreeLinkNode {
@@ -6,7 +9,7 @@
  *     TreeLinkNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PopulatingNextRightPointersInEachNodeII {
     public void connect(TreeLinkNode root) {
         Queue<TreeLinkNode> currLevel = new LinkedList<>();
         Queue<TreeLinkNode> nextLevel = new LinkedList<>();

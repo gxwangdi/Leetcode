@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class StrobogrammaticNumber {
     public boolean isStrobogrammatic(String num) {
         if (num == null || num.length() == 0) {
             return true;

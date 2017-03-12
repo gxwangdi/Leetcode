@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class ThreeSumSmaller {
     public int threeSumSmaller(int[] nums, int target) {
         int res = 0;
         if (nums == null || nums.length<3) {

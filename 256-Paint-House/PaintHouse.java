@@ -1,4 +1,4 @@
-public class Solution {
+public class PaintHouse {
     public int minCost(int[][] costs) {
         if (costs == null || costs.length == 0) {
             return 0;

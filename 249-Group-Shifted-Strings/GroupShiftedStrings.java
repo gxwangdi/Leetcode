@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class GroupShiftedStrings {
     public List<List<String>> groupStrings(String[] strings) {
         List<List<String>> res = new ArrayList<>();
         if (strings == null || strings.length == 0) {
