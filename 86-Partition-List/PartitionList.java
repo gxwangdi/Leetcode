@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PartitionList {
     public ListNode partition(ListNode head, int x) {
         // ListNode dummy = new ListNode(0);
         // dummy.next = head;

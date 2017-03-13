@@ -1,4 +1,4 @@
-public class Solution {
+public class ScrambleString {
     
     public boolean isScramble(String s1, String s2) {
         if (s1.equals(s2)) {

@@ -1,4 +1,8 @@
-public class Solution {
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+public class MinimumWindowSubstring {
     public String minWindow(String s, String t) {
         if (s == null || t == null || s.length() == 0 || t.length() == 0 || s.length() < t.length()) {
             return "";

@@ -1,4 +1,4 @@
-public class Solution {
+public class ClimbingStairs {
     public int climbStairs(int n) {
         if (n<=0)
             return 0;

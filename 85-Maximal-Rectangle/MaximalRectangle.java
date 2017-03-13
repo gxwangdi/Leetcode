@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class MaximalRectangle {
     
     public int maximalRectangle(char[][] matrix) {
         if (matrix.length == 0 || matrix[0].length == 0) return 0;

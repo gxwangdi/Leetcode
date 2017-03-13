@@ -1,4 +1,4 @@
-public class Solution {
+public class SetMatrixZeroes {
     public void setZeroes(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return;
