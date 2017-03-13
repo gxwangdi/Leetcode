@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -6,7 +8,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PlusOneLinkedList {
     public ListNode plusOne(ListNode head) {
         ListNode dummy = new ListNode(0);
         dummy.next = head;

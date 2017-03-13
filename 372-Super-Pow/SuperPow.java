@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SuperPow {
     
     private final int DIV = 1337;
     

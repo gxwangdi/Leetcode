@@ -1,4 +1,4 @@
-public class Solution {
+public class ValidNumber {
     
     public boolean isNumber(String s) {
         if (s == null) {

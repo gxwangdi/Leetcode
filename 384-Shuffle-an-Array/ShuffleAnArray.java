@@ -1,9 +1,9 @@
-public class Solution {
+public class ShuffleAnArray {
 
     private int[] src;
     private java.util.Random rand;
     
-    public Solution(int[] nums) {
+    public ShuffleAnArray(int[] nums) {
         src = nums;
         rand = new java.util.Random();
     }

@@ -1,4 +1,4 @@
-public class Solution {
+public class CountAndSay {
     public String countAndSay(int n) {
         if (n<=0) return null;
         int i=1;

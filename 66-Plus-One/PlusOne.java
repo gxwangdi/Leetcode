@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class PlusOne {
     public int[] plusOne(int[] digits) {
         if (digits == null || digits.length == 0)
             return digits;

@@ -1,4 +1,4 @@
-public class Solution {
+public class BombEnemy {
     
     private final char wall = 'W';
     private final char enemy = 'E';

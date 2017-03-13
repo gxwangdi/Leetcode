@@ -1,4 +1,4 @@
-public class Solution {
+public class RangeAddition {
     public int[] getModifiedArray(int length, int[][] updates) {
         int[] res = new int[length];     
         for (int[] update : updates) {

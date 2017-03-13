@@ -1,4 +1,4 @@
-public class Solution {
+public class RandomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         if (ransomNote == null || magazine == null || ransomNote.length() > magazine.length()) {
             return false;
