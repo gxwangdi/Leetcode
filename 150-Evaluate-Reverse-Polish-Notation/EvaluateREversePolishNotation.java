@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Stack;
+
+public class EvaluateREversePolishNotation {
     public int evalRPN(String[] tokens) {
         if (tokens == null || tokens.length == 0) {
             return 0;

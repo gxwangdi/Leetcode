@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class SurroundedRegions {
     private final char x = 'X';
     private final char o = 'O';
     private final char y = 'Y';

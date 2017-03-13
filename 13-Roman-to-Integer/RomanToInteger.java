@@ -1,4 +1,4 @@
-public class Solution {
+public class RomanToInteger {
     
     private int charToInt(char c) {  
         int data = 0;  

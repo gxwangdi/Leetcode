@@ -1,4 +1,4 @@
-public class Solution {
+public class BestTimeToBuyAndSellStockII {
     public int maxProfit(int[] prices) {
         int profit = 0;
         if (prices == null || prices.length == 0) {

@@ -1,4 +1,4 @@
-public class Solution {
+public class ReverseWordsInAString {
     public String reverseWords(String s) {
         if (s == null || s.length() == 0) {
             return s;

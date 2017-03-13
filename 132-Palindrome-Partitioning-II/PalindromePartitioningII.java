@@ -1,4 +1,4 @@
-public class Solution {
+public class PalindromePartitioningII {
     public int minCut(String s) {
         if (s == null || s.length() < 2) {
             return 0;

@@ -1,4 +1,4 @@
-public class Solution {
+public class BestTimeToBuyAndSellStockIII {
     
     // l[i] means the max profit for [0...i]  r[i] means the max profit for [i...n]
     public int maxProfit(int[] prices) {

@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class PalindromePartitioning {
     public List<List<String>> partition(String s) {
         List<List<String>> res = new ArrayList<>();
         if (s == null) {

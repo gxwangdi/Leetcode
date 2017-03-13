@@ -1,12 +1,16 @@
-/**
- * Definition for undirected graph.
- * class UndirectedGraphNode {
- *     int label;
- *     List<UndirectedGraphNode> neighbors;
- *     UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
- * };
- */
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+
+class UndirectedGraphNode {
+      int label;
+      List<UndirectedGraphNode> neighbors;
+      UndirectedGraphNode(int x) { label = x; neighbors = new ArrayList<UndirectedGraphNode>(); }
+ };
+
+public class CLoneGraph {
     
     // DFS in recursive manner.    
     public UndirectedGraphNode cloneGraph(UndirectedGraphNode node) {

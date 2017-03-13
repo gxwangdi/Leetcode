@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeMaxmumPathSum {
     public int maxPathSum(TreeNode root) {
         int[] max = new int[1];
         max[0] = Integer.MIN_VALUE;
