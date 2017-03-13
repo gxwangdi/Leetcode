@@ -1,4 +1,4 @@
-public class Solution {
+public class WildcardMatching {
     
     // Two pointer approach
     public boolean isMatch(String s, String p) {

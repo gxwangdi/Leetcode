@@ -1,4 +1,4 @@
-public class Solution {
+public class RotateFunction {
     
     public int maxRotateFunction(int[] A) {
         int F = 0;

@@ -1,4 +1,4 @@
-public class Solution {
+public class TrappingRainWater {
     public int trap(int[] height) {
         int total = 0;
         if (height == null || height.length <3) {

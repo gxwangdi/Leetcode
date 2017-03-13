@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class JumpGame {
     public boolean canJump(int[] nums) {
         if (nums == null || nums.length == 0) {
             return false;

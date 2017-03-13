@@ -1,4 +1,4 @@
-public class Solution {
+public class MultiplyString {
     public String multiply(String num1, String num2) {
         if (num1 == null || num2 == null) {
             return null;

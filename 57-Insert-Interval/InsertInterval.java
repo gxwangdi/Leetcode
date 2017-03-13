@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Definition for an interval.
  * public class Interval {
@@ -7,7 +10,7 @@
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-public class Solution {
+public class InsertInterval {
     public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
         List<Interval> res = new ArrayList<>();
         if (intervals == null || newInterval == null) {

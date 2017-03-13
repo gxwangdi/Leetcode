@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
  * Definition for an interval.
  * public class Interval {
@@ -7,7 +12,7 @@
  *     Interval(int s, int e) { start = s; end = e; }
  * }
  */
-public class Solution {
+public class MergeIntervals {
     public List<Interval> merge(List<Interval> intervals) {
         if (intervals == null || intervals.size()<2) {
             return intervals;
