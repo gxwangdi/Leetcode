@@ -1,4 +1,4 @@
-public class Solution {
+public class ExcelSheetColumnNumber {
     
     public int titleToNumber(String s) {
         if (s == null) {

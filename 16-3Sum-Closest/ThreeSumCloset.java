@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class ThreeSumCloset {
     public int threeSumClosest(int[] nums, int target) {
         int sum = Integer.MAX_VALUE;
         if (nums == null || nums.length<3) {

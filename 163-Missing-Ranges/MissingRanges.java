@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class MissingRanges {
     
     // pre and after can not handle Integer.MIN_VALUE, can extend to long. 
     public List<String> findMissingRanges(int[] nums, int lower, int upper) {

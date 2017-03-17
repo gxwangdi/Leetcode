@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.Arrays;
+import java.util.Comparator;
+
+public class LargestNumber {
     
     private Comparator<String> numberComparator = new Comparator<String>(){
         public int compare(String s1, String s2) {

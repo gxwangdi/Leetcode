@@ -1,4 +1,4 @@
-public class Solution {
+public class OneEditDistance {
     
     
     public boolean isOneEditDistance(String s, String t) {

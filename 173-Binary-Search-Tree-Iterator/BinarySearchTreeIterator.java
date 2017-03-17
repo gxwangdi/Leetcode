@@ -1,3 +1,5 @@
+import java.util.Stack;
+
 /**
  * Definition for binary tree
  * public class TreeNode {
@@ -8,11 +10,11 @@
  * }
  */
 
-public class BSTIterator {
+public class BinarySearchTreeIterator {
 
     private Stack<TreeNode> mStack;
 
-    public BSTIterator(TreeNode root) {
+    public BinarySearchTreeIterator(TreeNode root) {
         mStack = new Stack<>();
         while (root!=null) {
             mStack.push(root);

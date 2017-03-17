@@ -1,4 +1,4 @@
-public class Solution {
+public class FactorialTrailingZeroes {
     public int trailingZeroes(int n) {
         if (n<0) 
             return -1;
@@ -11,3 +11,4 @@ public class Solution {
         return ans;
     }
 }
+

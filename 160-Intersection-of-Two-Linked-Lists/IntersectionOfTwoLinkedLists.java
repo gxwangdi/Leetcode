@@ -9,7 +9,10 @@
  *     }
  * }
  */
-public class Solution {
+
+
+
+public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode curA = headA;
         ListNode curB = headB;
