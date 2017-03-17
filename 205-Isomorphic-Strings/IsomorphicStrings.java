@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class IsomorphicStrings {
     public boolean isIsomorphic(String s, String t) {
         if (s==null || t==null) 
             return false;
