@@ -6,7 +6,9 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class RemoveNthNodeFromEndOfList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null || n<0)
             return null;

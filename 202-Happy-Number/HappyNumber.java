@@ -1,4 +1,4 @@
-public class Solution {
+public class HappyNumber {
     /*
     public boolean isHappy(int n) {
         if (n<=0)

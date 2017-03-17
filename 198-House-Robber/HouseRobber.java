@@ -1,4 +1,4 @@
-public class Solution {
+public class HouseRobber {
     
     public int rob(int[] nums) {
         if (nums == null || nums.length == 0)

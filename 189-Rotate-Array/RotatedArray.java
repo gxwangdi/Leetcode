@@ -1,6 +1,6 @@
 
 
-public class Solution {
+public class RotatedArray {
     
     public void rotate(int[] nums, int k) {
         if (nums == null || k<=0 || nums.length<=0 || k== nums.length) {

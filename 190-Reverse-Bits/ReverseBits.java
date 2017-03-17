@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class ReverseBits {
     
     // For functions getting called very frequently, cache some intermediate result.
     // you need treat n as an unsigned value

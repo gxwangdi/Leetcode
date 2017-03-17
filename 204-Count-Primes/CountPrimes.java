@@ -1,6 +1,8 @@
+import java.util.Arrays;
 
 
-public class Solution {
+
+public class CountPrimes {
     
     /*
         Serach online and found a similar approach, but more concise implementation. 
