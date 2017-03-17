@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Set;
+
+public class WordBreak {
     
     private int maxWordLength(Set<String> dict) {
         int max = 0;

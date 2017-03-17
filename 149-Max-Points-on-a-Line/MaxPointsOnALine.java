@@ -1,13 +1,23 @@
-/**
- * Definition for a point.
- * class Point {
- *     int x;
- *     int y;
- *     Point() { x = 0; y = 0; }
- *     Point(int a, int b) { x = a; y = b; }
- * }
- */
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+
+class Point {
+	int x;
+	int y;
+
+	Point() {
+		x = 0;
+		y = 0;
+	}
+
+	Point(int a, int b) {
+		x = a;
+		y = b;
+	}
+}
+
+public class MaxPointsOnALine {
     public int maxPoints(Point[] points) {
         if (points == null || points.length == 0) {
             return 0;

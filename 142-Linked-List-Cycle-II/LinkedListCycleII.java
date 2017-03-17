@@ -9,7 +9,9 @@
  *     }
  * }
  */
-public class Solution {
+
+
+public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;

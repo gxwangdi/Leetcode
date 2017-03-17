@@ -6,7 +6,9 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class ReorderList {
     
     // This is really amazing, though not easy to understand!  
     public void reorderList(ListNode head) {

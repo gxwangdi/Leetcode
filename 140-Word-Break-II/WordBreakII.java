@@ -1,4 +1,10 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+public class WordBreakII {
     public List<String> wordBreak(String s, Set<String> dict) {
         return dfs( s, dict, new HashMap<String, List<String>>() );
     }

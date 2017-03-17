@@ -1,4 +1,4 @@
-public class Solution {
+public class SingleNumber {
     public int singleNumber(int[] nums) {
         if (nums == null || nums.length == 0) {
             return 0;
