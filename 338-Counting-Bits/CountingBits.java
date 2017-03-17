@@ -1,4 +1,4 @@
-public class Solution {
+public class CountingBits {
     
     public int[] countBits(int num) {
         if (num < 0) {

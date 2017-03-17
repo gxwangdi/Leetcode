@@ -6,7 +6,10 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+
+public class MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         if (l1 == null) {
             return l2;

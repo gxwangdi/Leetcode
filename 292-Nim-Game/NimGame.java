@@ -1,4 +1,4 @@
-public class Solution {
+public class NimGame {
     public boolean canWinNim(int n) {
         if (n < 0) {
             return false;
@@ -6,3 +6,4 @@ public class Solution {
          return (n%4!=0);
     }// end of canWinNim 
 }
+

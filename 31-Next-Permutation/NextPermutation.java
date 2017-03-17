@@ -1,4 +1,4 @@
-public class Solution {
+public class NextPermutation {
     public void nextPermutation(int[] A) {
         if(A == null || A.length <= 1) 
             return;

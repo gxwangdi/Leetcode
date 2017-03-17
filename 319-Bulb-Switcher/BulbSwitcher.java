@@ -1,4 +1,4 @@
-public class Solution {
+public class BulbSwitcher {
     public int bulbSwitch(int n) {
         if (n<1) {
             return 0;

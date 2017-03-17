@@ -1,4 +1,4 @@
-public class Solution {
+public class IntegerBreak {
     
     public int integerBreak(int n) {
         // max[i], the max value we can have for i.

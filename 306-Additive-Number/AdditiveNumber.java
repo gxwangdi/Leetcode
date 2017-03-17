@@ -1,4 +1,4 @@
-public class Solution {
+public class AdditiveNumber {
     /*
     public boolean isAdditiveNumber(String num) {
         if (num==null || num.length()<=2)

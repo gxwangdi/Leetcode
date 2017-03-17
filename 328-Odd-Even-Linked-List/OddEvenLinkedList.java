@@ -6,7 +6,9 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null)
             return head;

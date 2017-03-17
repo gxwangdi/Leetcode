@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class CoinChange {
     public int coinChange(int[] coins, int amount) {
         if (amount < 1) {
             return 0;

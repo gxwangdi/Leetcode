@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class FlipGame {
     public List<String> generatePossibleNextMoves(String s) {
         List<String> res = new ArrayList<>();
         if (s == null || s.length()<2) {

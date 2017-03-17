@@ -1,4 +1,10 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
+
+public class TheSkylineProblem {
     public List<int[]> getSkyline(int[][] buildings) {
         List<int[]> res = new ArrayList<>();          
         List<int[]> height = new ArrayList<>();       
