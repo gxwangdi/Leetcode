@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.Deque;
+import java.util.LinkedList;
+
+public class LargestRectangleInHistogram {
     // public int largestRectangleArea(int[] heights) {
     //     Stack<Integer> stack = new Stack<>();
     //     int i = 0;

@@ -1,4 +1,4 @@
-public class Solution {
+public class StringToInteger {
     public int myAtoi(String str) {
         if (str == null) {
             return 0;
