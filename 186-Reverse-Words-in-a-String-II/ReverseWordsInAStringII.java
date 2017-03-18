@@ -1,4 +1,4 @@
-public class Solution {
+public class ReverseWordsInAStringII {
     public void reverseWords(char[] s) {
         if (s == null || s.length == 0) {
             return;

@@ -1,4 +1,4 @@
-public class Solution {
+public class BestTimeToBuyAndSellStockIV {
     
     // DP: t(i,j) is the max profit for up to i transactions by time j (0<=i<=K, 0<=j<=T).
     public int maxProfit(int k, int[] prices) {
