@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class BinaryTreeLongestConsecutiveSequence {
     
     public int longestConsecutive(TreeNode root) {
         if (root == null) {

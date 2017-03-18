@@ -1,3 +1,6 @@
+import java.util.Collections;
+import java.util.PriorityQueue;
+
 public class MedianFinder {
 
     private PriorityQueue<Integer> maxHeap = new PriorityQueue<>(10, Collections.reverseOrder());
