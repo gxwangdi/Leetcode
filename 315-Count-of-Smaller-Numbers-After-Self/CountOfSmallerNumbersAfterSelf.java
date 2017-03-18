@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class CountOfSmallerNumbersAfterSelf {
     
     public List<Integer> countSmaller(int[] nums) {
         List<Integer> res = new ArrayList<>();

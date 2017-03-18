@@ -1,4 +1,4 @@
-public class Solution {
+public class BestTimeToBuyAndSellStockWithCooldown {
     
     public int maxProfit(int[] prices) {
         if (prices == null || prices.length < 2) {

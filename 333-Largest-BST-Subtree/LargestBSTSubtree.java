@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class LargestBSTSubtree {
     public int largestBSTSubtree(TreeNode root) {
         if (root == null) {
             return 0;

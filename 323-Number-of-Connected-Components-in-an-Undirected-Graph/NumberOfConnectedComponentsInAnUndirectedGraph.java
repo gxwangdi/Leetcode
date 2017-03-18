@@ -1,4 +1,4 @@
-public class Solution {
+public class NumberOfConnectedComponentsInAnUndirectedGraph {
     
     // Union Find 
     public int countComponents(int n, int[][] edges) {

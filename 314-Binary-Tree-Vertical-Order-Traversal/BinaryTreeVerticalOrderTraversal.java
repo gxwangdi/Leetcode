@@ -1,3 +1,10 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +14,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeVerticalOrderTraversal {
     
     // BFS 
     public List<List<Integer>> verticalOrder(TreeNode root) {

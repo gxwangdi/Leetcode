@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class GeneralizedAbbreviation {
     
     // Reference a posting in discuss. 
     public List<String> generateAbbreviations(String word) {

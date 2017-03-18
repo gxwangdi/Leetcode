@@ -1,4 +1,4 @@
-public class NumMatrix {
+public class RangeSumQuery2DMutable {
 
     // Binary Index Tree solution        
     int[][] tree;
@@ -6,7 +6,7 @@ public class NumMatrix {
     int m;
     int n;
     
-    public NumMatrix(int[][] matrix) {
+    public RangeSumQuery2DMutable(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
             return;
         }

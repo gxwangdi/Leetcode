@@ -1,4 +1,4 @@
-public class Solution {
+public class IncreasingTripletSubsequence {
     public boolean increasingTriplet(int[] nums) {
         if (nums == null || nums.length < 3) {
             return false;

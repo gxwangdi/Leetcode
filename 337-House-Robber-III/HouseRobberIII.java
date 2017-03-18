@@ -7,7 +7,9 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+
+public class HouseRobberIII {
     public int rob(TreeNode root) {
         int[] max = dfs(root);
         

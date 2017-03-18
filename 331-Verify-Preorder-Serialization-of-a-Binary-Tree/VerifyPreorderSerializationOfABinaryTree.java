@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Stack;
+
+public class VerifyPreorderSerializationOfABinaryTree {
     public boolean isValidSerialization(String preorder) {
         if (preorder == null || preorder.length() == 0) {
             return true;

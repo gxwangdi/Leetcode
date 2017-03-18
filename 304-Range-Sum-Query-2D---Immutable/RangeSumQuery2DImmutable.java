@@ -1,11 +1,11 @@
-public class NumMatrix {
+public class RangeSumQuery2DImmutable {
 
     // Prefix sum approach. 
     private long[][] sum;
     private int m;
     private int n;
     
-    public NumMatrix(int[][] matrix) {
+    public RangeSumQuery2DImmutable(int[][] matrix) {
         if (matrix == null) {
             sum = new long[0][0];
             return;

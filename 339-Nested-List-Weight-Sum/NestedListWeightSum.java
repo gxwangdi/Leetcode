@@ -1,3 +1,5 @@
+import java.util.List;
+
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -15,7 +17,7 @@
  *     public List<NestedInteger> getList();
  * }
  */
-public class Solution {
+public class NestedListWeightSum {
     public int depthSum(List<NestedInteger> nestedList) {
         if (nestedList == null || nestedList.size()==0) {
             return 0;

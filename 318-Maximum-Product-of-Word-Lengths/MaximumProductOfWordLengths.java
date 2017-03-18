@@ -1,4 +1,4 @@
-public class Solution {
+public class MaximumProductOfWordLengths {
     public int maxProduct(String[] words) {
         if (words == null || words.length < 2) {
             return 0;

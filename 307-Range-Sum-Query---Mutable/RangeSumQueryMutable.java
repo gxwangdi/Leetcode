@@ -1,11 +1,11 @@
-public class NumArray {
+public class RangeSumQueryMutable {
     
     // Binary Index Tree Approach
     private int[] nums;
     private int[] BIT;
     private int n;
     
-    public NumArray(int[] nums) {
+    public RangeSumQueryMutable(int[] nums) {
         this.nums = nums;
         
         n = nums.length;

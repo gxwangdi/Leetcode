@@ -1,4 +1,4 @@
-public class Solution {
+public class WiggleSortII {
     
     // Space O(n), easier to understand version.   
     public void wiggleSort(int[] nums) {

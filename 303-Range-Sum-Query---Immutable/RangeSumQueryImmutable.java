@@ -1,11 +1,11 @@
-public class NumArray {
+public class RangeSumQueryImmutable {
 
     // For functions called frequently, cache something to reduce redundant computation or intermediate result. 
     private int[] mNums;
     
     private long[] mSum;
     // Assuming nums is always valid. 
-    public NumArray(int[] nums) {
+    public RangeSumQueryImmutable(int[] nums) {
         mNums = nums;
         if (nums != null) {
             mSum = new long[nums.length];

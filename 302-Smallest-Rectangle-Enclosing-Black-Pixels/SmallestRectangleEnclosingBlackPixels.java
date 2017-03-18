@@ -1,4 +1,4 @@
-public class Solution {
+public class SmallestRectangleEnclosingBlackPixels {
     
     private final char one = '1';
     private final char zero = '0';

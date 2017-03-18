@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
+public class SparseMatrixMultiplecation {
     public int[][] multiply(int[][] A, int[][] B) {
         if (A == null || B == null) {
             return null;

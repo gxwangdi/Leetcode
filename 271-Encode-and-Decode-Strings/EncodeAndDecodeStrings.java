@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Codec {
+public class EncodeAndDecodeStrings {
 
     // Encodes a list of strings to a single string.
     public String encode(List<String> strs) {
