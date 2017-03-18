@@ -1,4 +1,4 @@
-public class Solution {
+public class ZigZagConversion {
     public String convert(String s, int numRows) {
         if (s == null || s.length() <= numRows || numRows <2)
             return s;

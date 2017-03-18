@@ -1,9 +1,15 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+
+public class RandomPickIndex {
 
     Random rand ;
     Map<Integer, List<Integer>> map ;
     
-    public Solution(int[] nums) {
+    public RandomPickIndex(int[] nums) {
         rand = new Random();
         map = new HashMap<>();     
         for (int i=0; i < nums.length; i++) {

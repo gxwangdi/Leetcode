@@ -1,4 +1,4 @@
-public class Solution {
+public class PowXN {
     
     public double myPow(double x, int n) {
         if (n<0) {

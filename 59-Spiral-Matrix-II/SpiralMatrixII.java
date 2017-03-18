@@ -1,4 +1,4 @@
-public class Solution {
+public class SpiralMatrixII {
     public int[][] generateMatrix(int n) {
         if (n <= 0) {
             return new int[0][0];

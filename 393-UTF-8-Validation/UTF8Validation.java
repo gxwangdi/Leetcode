@@ -1,4 +1,4 @@
-public class Solution {
+public class UTF8Validation {
     
     public boolean validUtf8(int[] data) {
         int index = 0;

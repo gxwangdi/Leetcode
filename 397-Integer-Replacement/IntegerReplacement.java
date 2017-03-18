@@ -1,4 +1,4 @@
-public class Solution {
+public class IntegerReplacement {
     public int integerReplacement(int n) {
         long N = n;
         long small, big;

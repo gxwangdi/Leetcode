@@ -1,4 +1,4 @@
-public class Solution {
+public class NQueensII {
     public int totalNQueens(int n) {
         if (n<1) {
             return 0;
