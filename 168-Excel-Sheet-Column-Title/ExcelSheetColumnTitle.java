@@ -1,4 +1,4 @@
-public class Solution {
+public class ExcelSheetColumnTitle {
     // Take AB as an example to run through it. 
     public String convertToTitle(int n) {
         StringBuilder sb = new StringBuilder();

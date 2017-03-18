@@ -1,4 +1,4 @@
-public class Solution {
+public class LongestAbsoluteFilePath {
     public int lengthLongestPath(String input) {
         String[] paths = input.split("\n");      
         int[] stack = new int[paths.length+1];    

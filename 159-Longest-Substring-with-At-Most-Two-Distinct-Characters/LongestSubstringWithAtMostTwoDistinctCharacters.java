@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class LongestSubstringWithAtMostTwoDistinctCharacters {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
         if (s == null) {
             return 0;

@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class FractionToRecurringDecimal {
     public String fractionToDecimal(int numerator, int denominator) {
         if (numerator == 0) {
             return "0";

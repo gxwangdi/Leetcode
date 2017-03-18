@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {
         List<String> res = new ArrayList<>();
         if (digits == null || digits.length() == 0) {

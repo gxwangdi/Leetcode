@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class FindKPairsWithSmallestSums {
     
     // This shows a way to keep track of the index in an easy/straightforward way. 
     public List<int[]> kSmallestPairs(int[] nums1, int[] nums2, int k) {

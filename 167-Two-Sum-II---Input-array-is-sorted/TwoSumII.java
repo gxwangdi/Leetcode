@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class TwoSumII {
     public int[] twoSum(int[] numbers, int target) {
         int[] res = new int[2];
         Arrays.fill(res, -1);

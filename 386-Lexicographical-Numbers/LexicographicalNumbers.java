@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class LexicographicalNumbers {
     public List<Integer> lexicalOrder(int n) {
         List<Integer> list = new ArrayList<>(n);
         int cur = 1;

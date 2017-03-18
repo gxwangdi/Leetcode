@@ -1,4 +1,7 @@
-public class TwoSum {
+import java.util.HashMap;
+import java.util.Map;
+
+public class TwoSumIII {
 
     private Map<Integer, Integer> map = new HashMap<>();
     

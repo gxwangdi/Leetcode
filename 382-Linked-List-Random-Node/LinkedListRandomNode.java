@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class LinkedListRandomNode {
 
     // java.util.Random rand = new java.util.Random();
     // int len = 0;
@@ -27,7 +30,7 @@ public class Solution {
     private java.util.Random rand;
     private List<Integer> list;
     
-    public Solution(ListNode head) {
+    public LinkedListRandomNode(ListNode head) {
         rand = new java.util.Random();
         ListNode cur = head;
         list = new ArrayList<>();
