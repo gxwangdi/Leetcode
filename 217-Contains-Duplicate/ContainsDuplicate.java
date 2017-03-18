@@ -1,6 +1,8 @@
+import java.util.Arrays;
 
 
-public class Solution {
+
+public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         if (nums == null || nums.length < 2) {
             return false;

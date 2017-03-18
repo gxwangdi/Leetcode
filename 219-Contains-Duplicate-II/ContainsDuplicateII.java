@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContainsDuplicateII {
     /* Brute force   
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         if (nums == null || nums.length<2)

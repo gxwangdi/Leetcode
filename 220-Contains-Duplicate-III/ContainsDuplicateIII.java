@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashMap;
+import java.util.Map;
+
+public class ContainsDuplicateIII {
     
     private long getID(long i, long w) {
         return i<0?(i+1)/w - 1:i/w;

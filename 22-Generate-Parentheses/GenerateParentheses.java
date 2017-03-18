@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.List;
+
+public class GenerateParentheses {
     public List<String> generateParenthesis(int n) {
         List<String> res = new ArrayList<>();
         if (n<=0) {
