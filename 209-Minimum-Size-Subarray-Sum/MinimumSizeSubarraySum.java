@@ -1,4 +1,4 @@
-public class Solution {
+public class MinimumSizeSubarraySum {
     public int minSubArrayLen(int s, int[] nums) {
         if (s < 0 || nums ==null || nums.length ==0) {
             return 0;

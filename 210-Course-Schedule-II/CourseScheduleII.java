@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
+
+public class CourseScheduleII {
     
     // My implementation does not work for now, as there could be duplicate dependency like [1,9] [1,9], and set removes duplicates. Replace graph as List<List<Integer>> resolves the issue. 
     public int[] findOrder(int numCourses, int[][] prerequisites) {
