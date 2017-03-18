@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class SlidingWindowMaximum {
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || nums.length == 0 || nums.length < k) {
             return new int[]{};

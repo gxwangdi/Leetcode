@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.LinkedList;
+import java.util.List;
+
+public class DifferentWaysToAddParentheses {
     
     public List<Integer> diffWaysToCompute(String input) {
         List<Integer> ret = new LinkedList<Integer>();

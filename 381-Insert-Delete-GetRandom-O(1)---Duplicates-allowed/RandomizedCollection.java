@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class RandomizedCollection {
 
     Map<Integer, List<Integer>> map;

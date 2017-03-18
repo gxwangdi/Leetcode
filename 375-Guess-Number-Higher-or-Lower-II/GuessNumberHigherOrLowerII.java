@@ -1,4 +1,4 @@
-public class Solution {
+public class GuessNumberHigherOrLowerII {
     
     public int getMoneyAmount(int n) {
         if (n <= 1) {

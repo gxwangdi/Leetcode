@@ -1,3 +1,8 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +12,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class FindLeavesOfBinaryTree {
     public List<List<Integer>> findLeaves(TreeNode root) {
         List<List<Integer>> res = new ArrayList<>();
         if (root == null) {

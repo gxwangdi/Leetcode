@@ -1,4 +1,4 @@
-public class Solution {
+public class ProductOfArrayExceptSelf {
     
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length < 2) {

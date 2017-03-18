@@ -1,4 +1,4 @@
-public class Solution {
+public class SearchA2DMatrixII {
     
     // Search online and find a simple implementation, which has O(m+n) solution. 
     public boolean searchMatrix(int[][] matrix, int target) {

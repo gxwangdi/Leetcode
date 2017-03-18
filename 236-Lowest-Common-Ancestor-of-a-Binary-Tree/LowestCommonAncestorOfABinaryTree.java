@@ -7,7 +7,8 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+
+public class LowestCommonAncestorOfABinaryTree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (root == null || p == null || q == null) 
             return null;

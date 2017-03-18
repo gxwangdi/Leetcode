@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class Logger {
 
     private Map<String, Integer> map;

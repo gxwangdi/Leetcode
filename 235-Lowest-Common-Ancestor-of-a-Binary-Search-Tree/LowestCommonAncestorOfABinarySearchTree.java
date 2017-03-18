@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class LowestCommonAncestorOfABinarySearchTree {
     public TreeNode lowestCommonAncestor(
         TreeNode root
         , TreeNode p

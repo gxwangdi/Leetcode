@@ -1,3 +1,6 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class RandomizedSet {
 
     Map<Integer, Integer> m1; //<V, K>
