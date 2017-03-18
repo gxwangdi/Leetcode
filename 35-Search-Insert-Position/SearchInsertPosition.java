@@ -1,4 +1,4 @@
-public class Solution {
+public class SearchInsertPosition {
     
     public int searchInsert(int[] nums, int target) {
         if (nums == null || nums.length == 0) {

@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class SearchForARange {
     public int[] searchRange(int[] nums, int target) {
         int[] res = new int[2];
         Arrays.fill(res, -1);

@@ -1,4 +1,8 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class IntersectionOfTwoArrays {
     
     public int[] intersection(int[] nums1, int[] nums2) {
         if (nums1==null || nums2==null || nums1.length ==0 || nums2.length ==0) {

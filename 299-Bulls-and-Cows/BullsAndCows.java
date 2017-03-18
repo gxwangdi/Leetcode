@@ -1,4 +1,6 @@
-public class Solution {
+import java.util.Arrays;
+
+public class BullsAndCows {
     
     public String getHint(String secret, String guess) {
         int bulls = 0;

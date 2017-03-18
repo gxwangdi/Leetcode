@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashSet;
+import java.util.Set;
+
+public class LineReflection {
     public boolean isReflected(int[][] points) {
         if (points == null || points.length == 0) {
             return true;

@@ -1,4 +1,4 @@
-public class Solution {
+public class RearrangeStringKDistanceApart {
     
     public String rearrangeString(String str, int k) {
         int len = str.length();

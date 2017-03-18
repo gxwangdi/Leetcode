@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * // This is the interface that allows for creating nested lists.
  * // You should not implement it, or speculate about its implementation
@@ -15,7 +18,7 @@
  *     public List<NestedInteger> getList();
  * }
  */
-public class Solution {
+public class NestedListWeightSumII {
     public int depthSumInverse(List<NestedInteger> nestedList) {
         return getSum(nestedList, 0);
     }

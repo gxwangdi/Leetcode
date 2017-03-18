@@ -1,4 +1,9 @@
-public class Solution {
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
         if (nums1 == null || nums2 == null || nums1.length == 0 || nums2.length == 0) {
             return new int[0];

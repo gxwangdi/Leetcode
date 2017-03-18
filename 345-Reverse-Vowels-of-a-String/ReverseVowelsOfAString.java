@@ -1,4 +1,7 @@
-public class Solution {
+import java.util.HashSet;
+import java.util.Set;
+
+public class ReverseVowelsOfAString {
     public String reverseVowels(String s) {
         if (s==null || s.length()<2)
             return s;

@@ -1,4 +1,4 @@
-public class Solution {
+public class MaxSumOfRectangleNoLargerThanK {
     
     public int maxSumSubmatrix(int[][] matrix, int k) {
         int m = matrix.length;
