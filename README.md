@@ -1,1 +1,2 @@
-This is a repository created by [LeetCode Extension](https://chrome.google.com/webstore/detail/leetcode-extension/eomonjnamkjeclchgkdchpabkllmbofp). Codes here are commited from leetcode.com.
+This repo is all about my solutions on problems on Leetcode.com. They are mostly not that efficient but they work, and easy to understand,  and easy to figure out.  I think this is the best fit for technical interviews. 
+
