@@ -11,9 +11,23 @@
  */
 
 
-
 public class IntersectionOfTwoLinkedLists {
-    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+        if(headA == null || headB == null) {
+            return null;
+        }
+    
+        ListNode a = headA;
+        ListNode b = headB;
+        while( a != b){
+    	    //for the end of first iteration, we just reset the pointer to the head of another linkedlist
+            a = a == null? headB : a.next;
+            b = b == null? headA : b.next;    
+        }
+        return a;
+     }
+     /*
+     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         ListNode curA = headA;
         ListNode curB = headB;
         int lengthA = 0;
@@ -45,5 +59,5 @@ public class IntersectionOfTwoLinkedLists {
             slist = slist.next;
         }
         return llist;
-    }
+    }*/
 }
