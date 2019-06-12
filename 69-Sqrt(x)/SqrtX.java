@@ -1,9 +1,7 @@
 public class SqrtX {
-    
+
     public int mySqrt(int x) {
-        if (x<0) {
-            return -1;
-        }
+    // assuming x>0
         long left = 0;
         long right = x;
         long t;
@@ -22,11 +20,11 @@ public class SqrtX {
         t = right * right;
         if (t > x) {
             return (int)left;
-        } 
+        }
         return (int)right;
     }
-    
-    /* // Newton recursion 
+
+    /* // Newton recursion
     public int mySqrt(int x) {
         if (x == 0) {
             return 0;
@@ -38,9 +36,6 @@ public class SqrtX {
             res = (res + x/res)/2;
         }
         return (int)res;
-    }*/ 
-    
+    }*/
+
 }
-
-
-
