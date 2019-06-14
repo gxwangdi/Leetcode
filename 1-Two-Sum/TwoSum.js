@@ -8,7 +8,7 @@ var twoSum = function(nums, target) {
     var map = {};
     for (var i = 0; i < nums.length; i++) {
         var key = target - nums[i];
-        if (map[key] != undefined) {
+        if (!map[key]) {
             res.push(map[key], i);
             return res;
         }
@@ -16,4 +16,3 @@ var twoSum = function(nums, target) {
     }
     return res;
 };
-
