@@ -1,7 +1,9 @@
 public class CountNumbersWithUniqueDigits {
     public int countNumbersWithUniqueDigits(int n) {
-        if (n == 0)     return 1;
-        
+        if (n == 0) {
+          return 1;
+        }
+
         int res = 10;
         int uniqueDigits = 9;
         int availableNumber = 9;
@@ -13,7 +15,3 @@ public class CountNumbersWithUniqueDigits {
         return res;
     }
 }
-
-
-
-
