@@ -6,13 +6,11 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-
-
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null)
             return head;
-        
+
         ListNode o = head;
         ListNode e = head.next;
         ListNode eHead = head.next;
