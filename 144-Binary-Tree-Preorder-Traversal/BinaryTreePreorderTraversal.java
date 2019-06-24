@@ -10,12 +10,9 @@ import java.util.List;
  *     TreeNode(int x) { val = x; }
  * }
  */
-
-
 public class BinaryTreePreorderTraversal {
-    
     public List<Integer> preorderTraversal(TreeNode root) {
-        List<Integer> res = new ArrayList<>();    
+        List<Integer> res = new ArrayList<>();
         TreeNode cur = root;
         TreeNode prev = null;
         while (cur != null) {
@@ -27,7 +24,7 @@ public class BinaryTreePreorderTraversal {
                 while (prev.right!=null && prev.right!=cur) {
                     prev = prev.right;
                 }
-                
+
                 if (prev.right == null) {
                     res.add(cur.val);
                     prev.right = cur;
@@ -40,7 +37,7 @@ public class BinaryTreePreorderTraversal {
         }
         return res;
     }
-    
+
     /*
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -65,7 +62,7 @@ public class BinaryTreePreorderTraversal {
         }
         return res;
     }
-    
+
     private static class Pair {
         public TreeNode node;
         public boolean visited;
@@ -75,8 +72,8 @@ public class BinaryTreePreorderTraversal {
         }
     }
     */
-    
-    
+
+
     /* // iterative manner
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
@@ -94,16 +91,16 @@ public class BinaryTreePreorderTraversal {
             }
         }
         return res;
-    }*/ 
-    
-    
-    /* // recursive manner   
+    }*/
+
+
+    /* // recursive manner
     public List<Integer> preorderTraversal(TreeNode root) {
         List<Integer> res = new ArrayList<>();
         preorder(root, res);
         return res;
     }
-    
+
     private void preorder(TreeNode node, List<Integer> list) {
         if (node == null) {
             return;
@@ -111,9 +108,5 @@ public class BinaryTreePreorderTraversal {
         list.add(node.val);
         preorder(node.left, list);
         preorder(node.right, list);
-    }*/     
+    }*/
 }
-
-
-
-
