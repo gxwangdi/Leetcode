@@ -1,5 +1,4 @@
 public class ProductOfArrayExceptSelf {
-    
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length < 2) {
             return null;
@@ -11,7 +10,7 @@ public class ProductOfArrayExceptSelf {
             p *= nums[i-1];
             res[i] = p;
         }
-        
+
         p=1;
         for (int i=nums.length-2; i>=0; i--) {
             p *= nums[i+1];
@@ -19,7 +18,6 @@ public class ProductOfArrayExceptSelf {
         }
         return res;
     }
-    
     /* // Space O(n)   Time O(n)
     public int[] productExceptSelf(int[] nums) {
         if (nums == null || nums.length < 2) {
@@ -43,14 +41,14 @@ public class ProductOfArrayExceptSelf {
         }
         return res;
     }*/
-    
-    /* // This is from discussion, very elegant recursive implementation, but get a StackOverflowError  
+
+    /* // This is from discussion, very elegant recursive implementation, but get a StackOverflowError
     public int[] productExceptSelf(int[] nums) {
         multiply(nums, 0, 1, nums.length);
-        
+
         return nums;
     }
-    
+
     private int multiply(int[] a, int index, int fwdProduct, int length) {
         int recProduct =1;
         if (index >= length) {
@@ -60,8 +58,7 @@ public class ProductOfArrayExceptSelf {
         int cur = a[index];
         a[index] = recProduct * fwdProduct;
         recProduct *= cur;
-        
+
         return recProduct;
-    }*/    
-    
+    }*/
 }
