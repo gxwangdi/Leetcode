@@ -12,17 +12,13 @@ class Solution(object):
         """
         slow = head
         fast = head
-        while fast != None and fast.next != None :
-            slow = slow.next
-            fast = fast.next.next
+        while fast and fast.next :
+            slow, fast = slow.next, fast.next.next
             if slow == fast :
                 break
-        if fast == None or fast.next == None :
+        if not fast or not fast.next:
             return None
         slow = head
         while slow != fast :
-            slow = slow.next
-            fast = fast.next
+            slow, fast = slow.next, fast.next
         return slow
-        
-
