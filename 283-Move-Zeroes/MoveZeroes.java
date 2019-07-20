@@ -1,5 +1,4 @@
 public class MoveZeroes {
-    
     public void moveZeroes(int[] nums) {
         if (nums == null || nums.length < 2) {
             return;
@@ -21,7 +20,7 @@ public class MoveZeroes {
             slow++;
         }
     }
-    
+
     /*
     // Too complicated
     public void moveZeroes(int[] nums) {
@@ -46,17 +45,12 @@ public class MoveZeroes {
             swap(nums, i1, i2);
             i1++;
         }
-    }// end of moveZeroes           
-    
+    }// end of moveZeroes
+
     private void swap(int[] nums, int i1, int i2) {
         int temp = nums[i1];
         nums[i1] = nums[i2];
         nums[i2] = temp;
-    }// end of swap  
+    }// end of swap
     */
 }
-
-
-
-
-
