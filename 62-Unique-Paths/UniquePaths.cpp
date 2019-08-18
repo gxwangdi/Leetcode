@@ -1,5 +1,6 @@
-public class UniquePaths {
-    public int uniquePaths(int m, int n) {
+class Solution {
+public:
+    int uniquePaths(int m, int n) {
         if (m<=0 || n<=0) {
             return 0;
         }
@@ -7,8 +8,8 @@ public class UniquePaths {
         int k = m-1;
         double res = 1.0d;
         for (int i=1; i<=k; i++) {
-            res = res * (N - k + i) / i;
+            res = res*(N-k+i)/i;
         }
         return (int)res;
     }
-}
+};
