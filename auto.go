@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"path/filepath"
+	"strings"
 )
 
 func main() {
@@ -19,11 +20,12 @@ func main() {
 	args := os.Args[1:]
 	fmt.Println(args)
 	pn := args[0]
-	fn := args[1]
-
+	n := pn[strings.Index(pn, "-")+1:]
+	fmt.Println(n)
+	fn := strings.Replace(n, "-", "", -1)
+	// strings.ReplaceAll() supported in 1.12.
 	path := dir + sep + pn
 	if _, err := os.Stat(path); os.IsNotExist(err) {
-		// os.Mkdir(path, os.ModeDir)
 		os.Mkdir(path, os.ModeDir|os.ModePerm)
 	}
 	var files [7]string
