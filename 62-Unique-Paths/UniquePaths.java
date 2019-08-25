@@ -12,6 +12,3 @@ public class UniquePaths {
         return (int)res;
     }
 }
-
-
-

@@ -9,8 +9,8 @@
 
 
 public class ReorderList {
-    
-    // This is really amazing, though not easy to understand!  
+
+    // This is really amazing, though not easy to understand!
     public void reorderList(ListNode head) {
         if (head == null || head.next == null) {
             return;
@@ -21,10 +21,10 @@ public class ReorderList {
             p1 = p1.next;
             p2 = p2.next.next;
         }
-        
+
         ListNode head2 = p1.next;
         p1.next = null;
-        
+
         p2 = head2.next;
         head2.next = null;
         while (p2!=null) {
@@ -33,7 +33,7 @@ public class ReorderList {
             head2 = p2;
             p2 = p1;
         }
-        p1 = head; 
+        p1 = head;
         p2 = head2;
         while (p1!=null) {
             ListNode temp = p1.next;
@@ -41,11 +41,10 @@ public class ReorderList {
             p2 = temp;
         }
     }// end of reorderList
-    
-    
+
+
     /*
-    public void reorderList(ListNode head) {  
-        // write your code here
+    public void reorderList(ListNode head) {
         if (head == null || head.next == null) {
             return;
         }
@@ -88,8 +87,8 @@ public class ReorderList {
             cur.next = secondHead;
         }
     }
-    
-    // Use of these helpers will cause outOfMemory, test cases set a strict limit on memory consumption.  
+
+    // Use of these helpers will cause outOfMemory, test cases set a strict limit on memory consumption.
     private ListNode mergeInterleaving(ListNode n1, ListNode n2) {
         ListNode dummy = new ListNode(0);
         ListNode cur = dummy;
@@ -112,7 +111,7 @@ public class ReorderList {
         }
         return dummy.next;
     }
-    
+
     private ListNode reverse(ListNode head) {
         if (head == null || head.next == null) {
             return head;
@@ -127,7 +126,7 @@ public class ReorderList {
         }
         return p1;
     }
-    
+
     private ListNode findMiddle(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -139,6 +138,3 @@ public class ReorderList {
     }
     */
 }
-
-
-

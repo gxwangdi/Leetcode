@@ -3,7 +3,7 @@ public class RandomNote {
         if (ransomNote == null || magazine == null || ransomNote.length() > magazine.length()) {
             return false;
         }
-        
+
         int[] count = new int[26];
         for (int i=0; i<magazine.length(); i++) {
             int index = magazine.charAt(i) - 'a';
@@ -19,11 +19,3 @@ public class RandomNote {
         return true;
     }
 }
-
-
-
-
-
-
-
-

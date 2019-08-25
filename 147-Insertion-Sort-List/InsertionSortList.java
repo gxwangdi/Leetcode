@@ -13,7 +13,6 @@ public class InsertionSortList {
             return head;
         }
         ListNode dummy = new ListNode(Integer.MIN_VALUE);
-        ListNode cur = dummy;
         ListNode temp;
         while (head!=null) {
             temp = head;
@@ -32,7 +31,3 @@ public class InsertionSortList {
         return dummy.next;
     }
 }
-
-
-
-

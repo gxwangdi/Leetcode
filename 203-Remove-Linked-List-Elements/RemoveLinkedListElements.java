@@ -6,13 +6,8 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-
-
 public class RemoveLinkedListElements {
-    
-    
     public ListNode removeElements(ListNode head, int val) {
-        // Write your code here
         if (head == null) {
             return head;
         }
@@ -27,14 +22,14 @@ public class RemoveLinkedListElements {
         }
         return dummy.next;
     }
-    
+
     /*
     public ListNode removeElements(ListNode head, int val) {
         while (head!= null && head.val == val) {
             head = head.next;
         }
         if (head == null) return null;
-        
+
         ListNode cur = head;
         while (cur.next!=null) {
             if (cur.next.val == val) {
