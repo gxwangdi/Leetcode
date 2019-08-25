@@ -1,6 +1,7 @@
 # Generated files
 gen/
 bin/
+auto # hardcode facility tool. 
 
 # Java class file
 *.class
