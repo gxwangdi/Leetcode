@@ -46,6 +46,9 @@ func main() {
 	files[7] = path + sep + fn + ".go"
 	fmt.Println(files)
 	for _, file := range files {
+		if _, err := os.Stat(file); !os.IsNotExist(err) {
+			continue
+		}
 		f, e := os.Create(file)
 		if e != nil {
 			fmt.Println(e)
