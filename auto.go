@@ -8,6 +8,13 @@ import (
 	"strings"
 )
 
+/**
+ * Use case:
+ * $go build auto.go
+ * $./auto 61-Rotate-List
+ * If dir 61-Rotate-List does not exist, it will be created.
+ * And RotateList.[postfix] and *.md will be added if not available.
+ */
 func main() {
 	dir, err := filepath.Abs(filepath.Dir(os.Args[0]))
 	if err != nil {
