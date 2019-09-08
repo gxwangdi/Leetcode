@@ -1,9 +1,8 @@
 public class RotateFunction {
-    
     public int maxRotateFunction(int[] A) {
         int F = 0;
         int sum = 0;
-        int res = Integer.MIN_VALUE;   
+        int res = Integer.MIN_VALUE;
         int n = A.length;
         if ( n<=1 ) {
             return 0;
@@ -12,7 +11,7 @@ public class RotateFunction {
             F += i*A[i];
             sum += A[i];
         }
-        
+
         if (F > res) {
             res = F;
         }
@@ -23,13 +22,6 @@ public class RotateFunction {
                 res = F;
             }
         }
-        return res;        
-    }// end of maxRotateFunction      
-    
+        return res;
+    }// end of maxRotateFunction
 }
-
-
-
-
-
-
