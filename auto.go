@@ -42,7 +42,7 @@ func main() {
 	files[3] = path + sep + fn + ".cpp"
 	files[4] = path + sep + fn + ".js"
 	files[5] = path + sep + fn + ".py"
-	files[6] = path + sep + fn + ".py3"
+	files[6] = path + sep + fn + "_3.py"
 	files[7] = path + sep + fn + ".go"
 	fmt.Println(files)
 	for _, file := range files {
