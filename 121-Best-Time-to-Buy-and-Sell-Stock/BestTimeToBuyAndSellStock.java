@@ -13,4 +13,17 @@ public class BestTimeToBuyAndSellStock {
         }
         return profit;
     }// end of maxProfit
+
+    // public int maxProfit(int[] prices) {
+    //     var minPrice = Integer.MAX_VALUE;
+    //     var maxProfit = 0;
+    //     for(int price : prices) {
+    //         if (price < minPrice) {
+    //             minPrice = price;
+    //         } else if (price - minPrice > maxProfit) {
+    //             maxProfit = price - minPrice;
+    //         }
+    //     }
+    //     return maxProfit;
+    }
 }
